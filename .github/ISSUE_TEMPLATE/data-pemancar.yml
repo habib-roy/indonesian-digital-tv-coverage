@@ -1,0 +1,29 @@
+name: Koreksi data pemancar
+description: Lokasi, tinggi menara, daya, atau frekuensi pemancar salah/kurang
+labels: [data]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Nama pemancar (seperti di aplikasi)
+    validations:
+      required: true
+  - type: input
+    id: coords
+    attributes:
+      label: Lokasi menara yang benar (lat, lon)
+  - type: input
+    id: height
+    attributes:
+      label: Tinggi antena pemancar (m)
+  - type: input
+    id: erp
+    attributes:
+      label: Daya ERP (kW) dan frekuensi/kanal
+  - type: textarea
+    id: source
+    attributes:
+      label: Sumber
+      description: Tautan OSM, dokumen Kominfo, foto, atau pengamatan langsung. Data tanpa sumber sulit diverifikasi.
+    validations:
+      required: true

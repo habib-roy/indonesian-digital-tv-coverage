@@ -1,0 +1,7 @@
+# Default reviewer for everything
+* @habib-roy
+
+# Model code: changes need a careful review against NTIA reference tests
+/src/lib/core/itm.ts @habib-roy
+/src/lib/core/propagation.ts @habib-roy
+/data/ @habib-roy

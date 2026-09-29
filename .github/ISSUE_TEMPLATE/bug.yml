@@ -1,0 +1,33 @@
+name: Laporan bug
+description: Aplikasi error, tampilan rusak, atau perilaku tidak sesuai
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: Apa yang terjadi?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Langkah untuk mengulang
+      placeholder: "1. Cari 'Bogor'\n2. Geser slider ke 20 m\n3. ..."
+    validations:
+      required: true
+  - type: input
+    id: expected
+    attributes:
+      label: Yang seharusnya terjadi
+  - type: input
+    id: device
+    attributes:
+      label: Perangkat & browser
+      placeholder: "Android 14, Chrome 140 / Windows 11, Firefox"
+    validations:
+      required: true
+  - type: textarea
+    id: console
+    attributes:
+      label: Pesan error di console (jika ada)
+      render: text

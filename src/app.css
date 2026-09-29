@@ -1,0 +1,217 @@
+@import "@fontsource-variable/inter";
+@import "@fontsource-variable/outfit";
+@import "maplibre-gl/dist/maplibre-gl.css";
+
+:root {
+  /* light (default) */
+  color-scheme: light;
+  --bg: hsl(200 30% 97%);
+  --surface: hsl(0 0% 100% / 0.82);
+  --surface-solid: hsl(0 0% 100%);
+  --line: hsl(210 30% 20% / 0.12);
+  --text: hsl(210 35% 14%);
+  --muted: hsl(210 12% 42%);
+  --teal: hsl(174 80% 32%);
+  --teal-soft: hsl(174 80% 32% / 0.12);
+  --amber: hsl(32 95% 44%);
+  --red: hsl(356 72% 50%);
+  --green: hsl(145 63% 36%);
+  --btn: hsl(210 30% 94% / 0.9);
+  --btn-hover: hsl(210 30% 88% / 0.95);
+  --track: hsl(210 20% 86%);
+  --inset: hsl(210 30% 95% / 0.8);
+  --on-accent: #fff;
+  --shadow: 0 16px 40px -14px hsl(210 40% 20% / 0.25);
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: hsl(210 30% 7%);
+  --surface: hsl(210 25% 11% / 0.78);
+  --surface-solid: hsl(210 25% 12%);
+  --line: hsl(200 30% 90% / 0.1);
+  --text: hsl(200 20% 94%);
+  --muted: hsl(205 12% 65%);
+  --teal: hsl(172 72% 48%);
+  --teal-soft: hsl(172 72% 48% / 0.15);
+  --amber: hsl(38 95% 58%);
+  --red: hsl(356 82% 62%);
+  --green: hsl(145 63% 50%);
+  --btn: hsl(210 25% 18% / 0.8);
+  --btn-hover: hsl(210 25% 24% / 0.9);
+  --track: hsl(210 20% 20%);
+  --inset: hsl(210 30% 6% / 0.6);
+  --on-accent: hsl(210 40% 8%);
+  --shadow: 0 20px 50px -12px hsl(210 60% 2% / 0.7);
+}
+:root {
+  --radius: 18px;
+  --blur: blur(18px) saturate(1.4);
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --font: "Inter Variable", system-ui, sans-serif;
+  --display: "Outfit Variable", var(--font);
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+html,
+body,
+#app {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+h1,
+h2,
+h3 {
+  font-family: var(--display);
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+button {
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+:focus-visible {
+  outline: 2px solid var(--teal);
+  outline-offset: 2px;
+}
+a {
+  color: var(--teal);
+}
+
+.glass {
+  background: var(--surface);
+  backdrop-filter: var(--blur);
+  -webkit-backdrop-filter: var(--blur);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.btn {
+  min-height: 44px;
+  padding: 0 16px;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  background: var(--btn);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-weight: 600;
+  transition:
+    transform 0.15s var(--ease),
+    background 0.2s;
+}
+.btn:hover:not(:disabled) {
+  background: var(--btn-hover);
+}
+.btn:active:not(:disabled) {
+  transform: scale(0.96);
+}
+.btn.primary {
+  background: linear-gradient(135deg, var(--teal), hsl(190 80% 45%));
+  color: var(--on-accent);
+  border: 0;
+}
+.btn.icon {
+  width: 44px;
+  padding: 0;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  background: var(--teal-soft);
+  color: var(--teal);
+}
+.badge.warn {
+  background: hsl(38 95% 58% / 0.15);
+  color: var(--amber);
+}
+.badge.bad {
+  background: hsl(356 82% 62% / 0.15);
+  color: var(--red);
+}
+
+.muted {
+  color: var(--muted);
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+dialog {
+  max-width: min(680px, 94vw);
+  max-height: 88dvh;
+  padding: 24px;
+  color: var(--text);
+  background: var(--surface-solid);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+dialog::backdrop {
+  background: hsl(210 40% 3% / 0.6);
+  backdrop-filter: blur(4px);
+}
+dialog[open] {
+  animation: pop 0.3s var(--ease);
+}
+
+@keyframes pop {
+  from {
+    opacity: 0;
+    transform: translateY(12px) scale(0.98);
+  }
+}
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+}
+@keyframes shimmer {
+  to {
+    background-position: -200% 0;
+  }
+}
+.skeleton {
+  border-radius: 10px;
+  background: linear-gradient(90deg, var(--track) 0%, var(--btn-hover) 50%, var(--track) 100%) 0 0 / 200% 100%;
+  animation: shimmer 1.4s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+.maplibregl-ctrl-attrib {
+  font-size: 10px;
+}

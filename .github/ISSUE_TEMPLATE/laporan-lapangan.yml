@@ -1,0 +1,39 @@
+name: Laporan lapangan
+description: Bandingkan hasil aplikasi dengan penerimaan nyata di lokasi Anda
+labels: [field-report]
+body:
+  - type: input
+    id: coords
+    attributes:
+      label: Koordinat rumah (lat, lon)
+      description: Boleh dibulatkan 3 desimal (±100 m) demi privasi.
+      placeholder: "-6.595, 106.806"
+    validations:
+      required: true
+  - type: input
+    id: transmitter
+    attributes:
+      label: Pemancar yang dipilih di aplikasi
+    validations:
+      required: true
+  - type: input
+    id: predicted
+    attributes:
+      label: Hasil aplikasi (label + margin dB)
+      placeholder: "Sinyal lemah, −4 dB"
+  - type: dropdown
+    id: actual
+    attributes:
+      label: Penerimaan nyata
+      options: [Semua saluran jernih, Sebagian saluran / kadang putus, Tidak ada sinyal]
+    validations:
+      required: true
+  - type: input
+    id: setup
+    attributes:
+      label: Antena & tinggi dari tanah
+      placeholder: "Yagi luar ruang, 9 m"
+  - type: textarea
+    id: notes
+    attributes:
+      label: Catatan (merek STB, jumlah saluran, halangan sekitar)

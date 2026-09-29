@@ -1,0 +1,16 @@
+version: 2
+updates:
+  - package-ecosystem: npm # works with pnpm-lock.yaml
+    directory: /
+    schedule:
+      interval: weekly
+    groups:
+      dev-dependencies:
+        dependency-type: development
+      maplibre:
+        patterns: ["maplibre-gl"]
+    open-pull-requests-limit: 5
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly

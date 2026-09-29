@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#f4f8fa" />
+    <title>Cek Sinyal TV Digital — Estimasi Kuat Sinyal DVB-T2 di Rumah Anda</title>
+    <meta
+      name="description"
+      content="Cek apakah rumah Anda dapat sinyal TV digital (DVB-T2) di Indonesia. Hitung jalur sinyal dari menara pemancar lewat bukit, atur tinggi antena, dan dapatkan rekomendasi antena. Gratis & open source."
+    />
+    <meta property="og:title" content="Cek Sinyal TV Digital" />
+    <meta
+      property="og:description"
+      content="Estimasi kuat sinyal TV digital di rumah Anda, berdasarkan lokasi, terrain 3D, dan tinggi antena."
+    />
+    <meta property="og:type" content="website" />
+    <script>
+      // apply saved theme before paint (default light)
+      if (localStorage.getItem("theme") === "dark") document.documentElement.dataset.theme = "dark";
+    </script>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  </head>
+  <body>
+    <div id="app"></div>
+    <noscript>Aplikasi ini membutuhkan JavaScript.</noscript>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

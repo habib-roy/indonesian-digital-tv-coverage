@@ -1,0 +1,9 @@
+#!/bin/sh
+# Fast checks on staged files only. Full suite runs in pre-push and CI.
+set -e
+files=$(git diff --cached --name-only --diff-filter=ACMR | grep -E '\.(ts|js|svelte|json|md|css|html|yml)$' || true)
+[ -z "$files" ] && exit 0
+echo "$files" | xargs pnpm exec prettier --check
+lint=$(echo "$files" | grep -E '\.(ts|js|svelte)$' || true)
+[ -n "$lint" ] && echo "$lint" | xargs pnpm exec eslint --max-warnings 0
+exit 0

@@ -1,0 +1,1946 @@
+[
+  {
+    "id": "aceh-1-banda-aceh",
+    "name": "Aceh-1 (Banda Aceh)",
+    "regencies": "Kabupaten Aceh Besar, Kota Banda Aceh",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "aceh-2-sabang",
+    "name": "Aceh-2 (Sabang)",
+    "regencies": "Kota Sabang",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "aceh-3-calang",
+    "name": "Aceh-3 (Calang)",
+    "regencies": "Kabupaten Aceh Jaya",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "aceh-4-sigli-bireuen",
+    "name": "Aceh-4 (Sigli-Bireuen)",
+    "regencies": "Kabupaten Pidie, Kabupaten Pidie Jaya, Kabupaten Bireuen",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "aceh-5-meulaboh",
+    "name": "Aceh-5 (Meulaboh)",
+    "regencies": "Kabupaten Aceh Barat, Kabupaten Aceh Barat Daya, Kabupaten Nagan Raya",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "aceh-6-takengon",
+    "name": "Aceh-6 (Takengon)",
+    "regencies": "Kabupaten Aceh Tengah, Kabupaten Bener Meriah",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "aceh-7-lhokseumawe",
+    "name": "Aceh-7 (Lhokseumawe)",
+    "regencies": "Kabupaten Aceh Utara, Kota Lhokseumawe",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "aceh-8-langsa",
+    "name": "Aceh-8 (Langsa)",
+    "regencies": "Kabupaten Aceh Timur, Kabupaten Aceh Tamiang, Kota Langsa",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "aceh-9-blangkejeren",
+    "name": "Aceh-9 (Blangkejeren)",
+    "regencies": "Kabupaten Gayo Lues",
+    "uhf": [27, 46, 47, 48],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "aceh-10-kutacane",
+    "name": "Aceh-10 (Kutacane)",
+    "regencies": "Kabupaten Aceh Tenggara",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "aceh-11-tapaktuan",
+    "name": "Aceh-11 (Tapaktuan)",
+    "regencies": "Kabupaten Aceh Selatan",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "aceh-12-subulussalam",
+    "name": "Aceh-12 (Subulussalam)",
+    "regencies": "Kota Subulussalam",
+    "uhf": [27, 46, 47, 48],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "aceh-13-singkil",
+    "name": "Aceh-13 (Singkil)",
+    "regencies": "Kabupaten Aceh Singkil",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "aceh-14-sinabang",
+    "name": "Aceh-14 (Sinabang)",
+    "regencies": "Kabupaten Simeulue",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sumatera-utara-1-medan",
+    "name": "Sumatera Utara-1 (Medan)",
+    "regencies": "Kabupaten Langkat, Kabupaten Deli Serdang, Kabupaten Serdang Bedagai, Kota Medan, Kota Binjai, Kota Tebing Tinggi",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sumatera-utara-2-pematangsiantar",
+    "name": "Sumatera Utara-2 (Pematangsiantar)",
+    "regencies": "Kabupaten Karo, Kabupaten Simalungun, Kabupaten Asahan, Kabupaten Batubara, Kota Pematangsiantar, Kota Tanjungbalai",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sumatera-utara-3-rantau-prapat",
+    "name": "Sumatera Utara-3 (Rantau Prapat)",
+    "regencies": "Kabupaten Labuhanbatu, Kabupaten Labuhanbatu Selatan, Kabupaten Labuhanbatu Utara",
+    "uhf": [30, 33, 36, 39, 45],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sumatera-utara-4-balige",
+    "name": "Sumatera Utara-4 (Balige)",
+    "regencies": "Kabupaten Tapanuli Utara, Kabupaten Toba Samosir, Kabupaten Samosir, Kabupaten Humbang Hasundutan",
+    "uhf": [27, 31, 46, 47, 48],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sumatera-utara-5-sidikalang",
+    "name": "Sumatera Utara-5 (Sidikalang)",
+    "regencies": "Kabupaten Dairi, Kabupaten Pakpak Bharat",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sumatera-utara-6-sibolga",
+    "name": "Sumatera Utara-6 (Sibolga)",
+    "regencies": "Kabupaten Tapanuli Tengah, Kota Sibolga",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sumatera-utara-7-padang-sidempuan",
+    "name": "Sumatera Utara-7 (Padang Sidempuan)",
+    "regencies": "Kabupaten Tapanuli Selatan, Kabupaten Padang Lawas Utara, Kabupaten Padang Lawas, Kota Padang Sidempuan",
+    "uhf": [29, 32, 35, 38, 41],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sumatera-utara-8-panyabungan",
+    "name": "Sumatera Utara-8 (Panyabungan)",
+    "regencies": "Kabupaten Mandailing Natal",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sumatera-utara-9-gunungsitoli",
+    "name": "Sumatera Utara-9 (Gunungsitoli)",
+    "regencies": "Kabupaten Nias, Kabupaten Nias Selatan, Kabupaten Nias Utara, Kabupaten Nias Barat, Kota Gunungsitoli",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sumatera-barat-1-padang",
+    "name": "Sumatera Barat-1 (Padang)",
+    "regencies": "Kabupaten Solok, Kabupaten Sijunjung, Kabupaten Tanah Datar, Kabupaten Padang Pariaman, Kabupaten Agam, Kota Padang, Kota Pariaman, Kota Bukittinggi, Kota Padang Panjang, Kota Solok, Kota Sawahlunto",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sumatera-barat-2-simpang-ampek",
+    "name": "Sumatera Barat-2 (Simpang Ampek)",
+    "regencies": "Kabupaten Pasaman Barat",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sumatera-barat-3-lubuk-sikaping",
+    "name": "Sumatera Barat-3 (Lubuk Sikaping)",
+    "regencies": "Kabupaten Pasaman",
+    "uhf": [27, 46, 47, 48],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sumatera-barat-4-payakumbuh",
+    "name": "Sumatera Barat-4 (Payakumbuh)",
+    "regencies": "Kabupaten Lima Puluh Kota, Kota Payakumbuh",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sumatera-barat-5-sungaidareh",
+    "name": "Sumatera Barat-5 (Sungaidareh)",
+    "regencies": "Kabupaten Dharmasraya",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sumatera-barat-6-lubukgadang",
+    "name": "Sumatera Barat-6 (Lubukgadang)",
+    "regencies": "Kabupaten Solok Selatan",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sumatera-barat-7-painan",
+    "name": "Sumatera Barat-7 (Painan)",
+    "regencies": "Kabupaten Pesisir Selatan",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sumatera-barat-8-tuapejat",
+    "name": "Sumatera Barat-8 (Tuapejat)",
+    "regencies": "Kabupaten Kepulauan Mentawai",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "riau-1-pekanbaru",
+    "name": "Riau-1 (Pekanbaru)",
+    "regencies": "Kabupaten Kampar, Kota Pekanbaru",
+    "uhf": [30, 33, 39, 45],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "riau-2-pasir-pengaraian",
+    "name": "Riau-2 (Pasir Pengaraian)",
+    "regencies": "Kabupaten Rokan Hulu",
+    "uhf": [28, 31, 37, 43],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "riau-3-bagansiapiapi",
+    "name": "Riau-3 (Bagansiapiapi)",
+    "regencies": "Kabupaten Rokan Hilir",
+    "uhf": [40, 42, 44, 46, 48],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "riau-4-dumai",
+    "name": "Riau-4 (Dumai)",
+    "regencies": "Kabupaten Bengkalis, Kabupaten Kepulauan Meranti, Kota Dumai",
+    "uhf": [32, 34, 36, 38],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "riau-5-siak",
+    "name": "Riau-5 (Siak)",
+    "regencies": "Kabupaten Siak, Kabupaten Pelalawan, Kabupaten Kuantan Singingi",
+    "uhf": [29, 35, 41, 47],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "riau-6-rengat",
+    "name": "Riau-6 (Rengat)",
+    "regencies": "Kabupaten Indragiri Hulu",
+    "uhf": [27, 46, 47, 48],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "riau-7-tembilahan",
+    "name": "Riau-7 (Tembilahan)",
+    "regencies": "Kabupaten Indragiri Hilir",
+    "uhf": [30, 33, 36, 39, 45],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "kepulauan-riau-1-batam",
+    "name": "Kepulauan Riau-1 (Batam)",
+    "regencies": "Kabupaten Bintan, Kabupaten Karimun, Kota Tanjungpinang, Kota Batam",
+    "uhf": [40, 42, 44, 46, 48],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "kepulauan-riau-2-tarempa",
+    "name": "Kepulauan Riau-2 (Tarempa)",
+    "regencies": "Kabupaten Kepulauan Anambas",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "kepulauan-riau-3-ranai",
+    "name": "Kepulauan Riau-3 (Ranai)",
+    "regencies": "Kabupaten Natuna",
+    "uhf": [28, 31, 34, 37, 43],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "kepulauan-riau-4-daik",
+    "name": "Kepulauan Riau-4 (Daik)",
+    "regencies": "Kabupaten Lingga",
+    "uhf": [29, 35, 41, 47],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "jambi-1-jambi",
+    "name": "Jambi-1 (Jambi)",
+    "regencies": "Kabupaten Muaro Jambi, Kabupaten Sarolangun, Kabupaten Batanghari, Kota Jambi",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "jambi-2-kuala-tungkal",
+    "name": "Jambi-2 (Kuala Tungkal)",
+    "regencies": "Kabupaten Tanjung Jabung Barat, Kabupaten Tanjung Jabung Timur",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "jambi-3-muara-bungo",
+    "name": "Jambi-3 (Muara Bungo)",
+    "regencies": "Kabupaten Bungo, Kabupaten Tebo",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "jambi-4-sungai-penuh",
+    "name": "Jambi-4 (Sungai Penuh)",
+    "regencies": "Kabupaten Kerinci, Kota Sungai Penuh",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "jambi-5-bangko",
+    "name": "Jambi-5 (Bangko)",
+    "regencies": "Kabupaten Merangin",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sumatera-selatan-1-palembang",
+    "name": "Sumatera Selatan-1 (Palembang)",
+    "regencies": "Kabupaten Banyuasin, Kabupaten Ogan Ilir, Kabupaten Ogan Komering Ilir, Kota Palembang",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sumatera-selatan-2-sekayu",
+    "name": "Sumatera Selatan-2 (Sekayu)",
+    "regencies": "Kabupaten Musi Banyuasin",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sumatera-selatan-3-lubuk-linggau",
+    "name": "Sumatera Selatan-3 (Lubuk Linggau)",
+    "regencies": "Kabupaten Musi Rawas, Kabupaten Musi Rawas Utara, Kabupaten Empat Lawang, Kota Lubuk Linggau",
+    "uhf": [27, 46, 47, 48],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sumatera-selatan-4-prabumulih",
+    "name": "Sumatera Selatan-4 (Prabumulih)",
+    "regencies": "Kabupaten Muara Enim, Kabupaten Penukal Abab Lematang Ilir, Kota Prabumulih",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sumatera-selatan-5-pagar-alam",
+    "name": "Sumatera Selatan-5 (Pagar Alam)",
+    "regencies": "Kabupaten Lahat, Kota Pagar Alam",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sumatera-selatan-6-baturaja",
+    "name": "Sumatera Selatan-6 (Baturaja)",
+    "regencies": "Kabupaten Ogan Komering Ulu, Kabupaten Ogan Komering Ulu Timur",
+    "uhf": [27, 46, 47, 48],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sumatera-selatan-7-muaradua",
+    "name": "Sumatera Selatan-7 (Muaradua)",
+    "regencies": "Kabupaten Ogan Komering Ulu Selatan",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "bangka-belitung-1-pangkalpinang",
+    "name": "Bangka Belitung-1 (Pangkalpinang)",
+    "regencies": "Kabupaten Bangka Tengah, Kota Pangkalpinang",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "bangka-belitung-2-sungai-liat",
+    "name": "Bangka Belitung-2 (Sungai Liat)",
+    "regencies": "Kabupaten Bangka, Kabupaten Bangka Barat",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "bangka-belitung-3-toboali",
+    "name": "Bangka Belitung-3 (Toboali)",
+    "regencies": "Kabupaten Bangka Selatan",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "bangka-belitung-4-tanjung-pandan",
+    "name": "Bangka Belitung-4 (Tanjung Pandan)",
+    "regencies": "Kabupaten Belitung, Kabupaten Belitung Timur",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "bengkulu-1-bengkulu",
+    "name": "Bengkulu-1 (Bengkulu)",
+    "regencies": "Kabupaten Bengkulu Tengah, Kota Bengkulu",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "bengkulu-2-manna",
+    "name": "Bengkulu-2 (Manna)",
+    "regencies": "Kabupaten Bengkulu Selatan, Kabupaten Seluma",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "bengkulu-3-bintuhan",
+    "name": "Bengkulu-3 (Bintuhan)",
+    "regencies": "Kabupaten Kaur",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "bengkulu-4-curup",
+    "name": "Bengkulu-4 (Curup)",
+    "regencies": "Kabupaten Rejang Lebong, Kabupaten Lebong, Kabupaten Kepahiang",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "bengkulu-5-arga-makmur",
+    "name": "Bengkulu-5 (Arga Makmur)",
+    "regencies": "Kabupaten Bengkulu Utara",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "bengkulu-6-mukomuko",
+    "name": "Bengkulu-6 (Mukomuko)",
+    "regencies": "Kabupaten Mukomuko",
+    "uhf": [27, 46, 47, 48],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "lampung-1-bandar-lampung",
+    "name": "Lampung-1 (Bandar Lampung)",
+    "regencies": "Kabupaten Lampung Tengah, Kabupaten Lampung Timur, Kabupaten Lampung Selatan, Kabupaten Pesawaran, Kabupaten Pringsewu, Kota Bandar Lampung, Kota Metro",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "lampung-2-menggala",
+    "name": "Lampung-2 (Menggala)",
+    "regencies": "Kabupaten Tulang Bawang, Kabupaten Mesuji",
+    "uhf": [27, 46, 47, 48],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "lampung-3-kotabumi",
+    "name": "Lampung-3 (Kotabumi)",
+    "regencies": "Kabupaten Lampung Utara, Kabupaten Way Kanan, Kabupaten Tulang Bawang Barat",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "lampung-4-liwa",
+    "name": "Lampung-4 (Liwa)",
+    "regencies": "Kabupaten Lampung Barat, Kabupaten Tanggamus, Kabupaten Pesisir Barat",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "banten-1-serang-raya",
+    "name": "Banten-1 (Serang Raya)",
+    "regencies": "Kabupaten Serang, Kota Cilegon, Kota Serang",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "banten-2-pandegelang",
+    "name": "Banten-2 (Pandegelang)",
+    "regencies": "Kabupaten Pandeglang",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "banten-3-lebak",
+    "name": "Banten-3 (Lebak)",
+    "regencies": "Kabupaten Lebak",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "dki-jakarta-jabodetabek",
+    "name": "DKI Jakarta (Jabodetabek)",
+    "regencies": "* DKI Jakarta\n* Banten\n** Kabupaten Tangerang\n** Kota Tangerang\n** Kota Tangerang Selatan\n* Jawa Barat\n** Kabupaten Bekasi\n** Kabupaten Bogor\n** Sekitar Puncak Pass (Kecamatan Cipanas dan Pacet)\n** Kota Bekasi\n** Kota Bogor\n** Kota Depok",
+    "uhf": [24, 26, 28, 31, 34, 37, 40, 43],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "jawa-barat-1-bandung",
+    "name": "Jawa Barat-1 (Bandung)",
+    "regencies": "Kabupaten Bandung, Kabupaten Bandung Barat, Kota Bandung, Kota Cimahi",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "jawa-barat-2-garut",
+    "name": "Jawa Barat-2 (Garut)",
+    "regencies": "Kabupaten Garut",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "jawa-barat-3-cirebon",
+    "name": "Jawa Barat-3 (Cirebon)",
+    "regencies": "Kabupaten Cirebon, Kabupaten Kuningan, Kota Cirebon",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "jawa-barat-4-tasikmalaya",
+    "name": "Jawa Barat-4 (Tasikmalaya)",
+    "regencies": "Kabupaten Ciamis, Kabupaten Tasikmalaya, Kabupaten Pangandaran, Kota Tasikmalaya, Kota Banjar",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "jawa-barat-5-sukabumi",
+    "name": "Jawa Barat-5 (Sukabumi)",
+    "regencies": "Kabupaten Sukabumi, Kota Sukabumi",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "jawa-barat-6-purwakarta",
+    "name": "Jawa Barat-6 (Purwakarta)",
+    "regencies": "Kabupaten Purwakarta, Kabupaten Indramayu, Kabupaten Subang, Kabupaten Karawang",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "jawa-barat-7-cianjur",
+    "name": "Jawa Barat-7 (Cianjur)",
+    "regencies": "Kabupaten Cianjur (kecuali sekitar Puncak Pass)",
+    "uhf": [23, 25, 27, 46, 47, 48],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "jawa-barat-8-sumedang",
+    "name": "Jawa Barat-8 (Sumedang)",
+    "regencies": "Kabupaten Sumedang, Kabupaten Majalengka",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "jawa-tengah-1-semarang",
+    "name": "Jawa Tengah-1 (Semarang)",
+    "regencies": "Kabupaten Semarang, Kabupaten Demak, Kabupaten Grobogan, Kabupaten Kudus, Kabupaten Sragen, Kabupaten Boyolali, Kota Semarang, Kota Salatiga",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "jawa-tengah-2-blora",
+    "name": "Jawa Tengah-2 (Blora)",
+    "regencies": "Kabupaten Blora",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "jawa-tengah-3-tegal",
+    "name": "Jawa Tengah-3 (Tegal)",
+    "regencies": "Kabupaten Tegal, Kabupaten Pekalongan, Kabupaten Pemalang, Kota Tegal, Kota Pekalongan",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "jawa-tengah-4-wonogiri",
+    "name": "Jawa Tengah-4 (Wonogiri)",
+    "regencies": "Kabupaten Wonogiri",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "jawa-tengah-5-magelang",
+    "name": "Jawa Tengah-5 (Magelang)",
+    "regencies": "Kabupaten Magelang, Kabupaten Temanggung, Kabupaten Kendal, Kabupaten Batang, Kota Magelang",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "jawa-tengah-6-pati",
+    "name": "Jawa Tengah-6 (Pati)",
+    "regencies": "Kabupaten Pati, Kabupaten Rembang, Kabupaten Jepara",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "jawa-tengah-7-purwokerto",
+    "name": "Jawa Tengah-7 (Purwokerto)",
+    "regencies": "Kabupaten Banyumas, Kabupaten Cilacap, Kabupaten Purbalingga, Kabupaten Brebes",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "jawa-tengah-8-purworejo",
+    "name": "Jawa Tengah-8 (Purworejo)",
+    "regencies": "Kabupaten Purworejo, Kabupaten Kebumen, Kabupaten Banjarnegara, Kabupaten Wonosobo",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "di-yogyakarta-yogyakarta",
+    "name": "DI Yogyakarta (Yogyakarta)",
+    "regencies": "* Daerah Istimewa Yogyakarta\n* Jawa Tengah\n** Kabupaten Karanganyar\n** Kabupaten Klaten\n** Kabupaten Sukoharjo\n** Kota Surakarta",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "jawa-timur-1-surabaya",
+    "name": "Jawa Timur-1 (Surabaya)",
+    "regencies": "Kabupaten Gresik, Kabupaten Sidoarjo, Kabupaten Lamongan, Kabupaten Mojokerto, Kabupaten Pasuruan, Kabupaten Bangkalan, Kabupaten Jombang, Kota Surabaya, Kota Pasuruan, Kota Mojokerto",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "jawa-timur-2-malang",
+    "name": "Jawa Timur-2 (Malang)",
+    "regencies": "Kabupaten Malang, Kabupaten Probolinggo, Kota Malang, Kota Batu, Kota Probolinggo",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "jawa-timur-3-pamekasan",
+    "name": "Jawa Timur-3 (Pamekasan)",
+    "regencies": "Kabupaten Pamekasan, Kabupaten Sumenep, Kabupaten Sampang",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "jawa-timur-4-jember",
+    "name": "Jawa Timur-4 (Jember)",
+    "regencies": "Kabupaten Jember, Kabupaten Lumajang, Kabupaten Bondowoso",
+    "uhf": [27, 30, 33, 46, 47, 48],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "jawa-timur-5-situbondo",
+    "name": "Jawa Timur-5 (Situbondo)",
+    "regencies": "Kabupaten Situbondo",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "jawa-timur-6-banyuwangi",
+    "name": "Jawa Timur-6 (Banyuwangi)",
+    "regencies": "Kabupaten Banyuwangi",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "jawa-timur-7-kediri",
+    "name": "Jawa Timur-7 (Kediri)",
+    "regencies": "Kabupaten Kediri, Kabupaten Blitar, Kabupaten Tulungagung, Kabupaten Nganjuk, Kota Kediri, Kota Blitar",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "jawa-timur-8-bojonegoro",
+    "name": "Jawa Timur-8 (Bojonegoro)",
+    "regencies": "Kabupaten Tuban, Kabupaten Bojonegoro",
+    "uhf": [25, 27, 46, 47, 48],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "jawa-timur-9-madiun",
+    "name": "Jawa Timur-9 (Madiun)",
+    "regencies": "Kabupaten Madiun, Kabupaten Magetan, Kabupaten Ngawi, Kabupaten Ponorogo, Kabupaten Trenggalek, Kota Madiun",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "jawa-timur-10-pacitan",
+    "name": "Jawa Timur-10 (Pacitan)",
+    "regencies": "Kabupaten Pacitan",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "bali-denpasar",
+    "name": "Bali (Denpasar)",
+    "regencies": "Kabupaten Badung, Kabupaten Gianyar, Kabupaten Tabanan, Kabupaten Karangasem, Kabupaten Bangli, Kabupaten Jembrana, Kabupaten Klungkung, Kabupaten Buleleng, Kota Denpasar",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "nusa-tenggara-barat-1-mataram",
+    "name": "Nusa Tenggara Barat-1 (Mataram)",
+    "regencies": "Kabupaten Lombok Barat, Kabupaten Lombok Timur, Kabupaten Lombok Tengah, Kota Mataram",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "nusa-tenggara-barat-2-lombok-utara",
+    "name": "Nusa Tenggara Barat-2 (Lombok Utara)",
+    "regencies": "Kabupaten Lombok Utara",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "nusa-tenggara-barat-3-sumbawa-barat",
+    "name": "Nusa Tenggara Barat-3 (Sumbawa Barat)",
+    "regencies": "Kabupaten Sumbawa Barat",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "nusa-tenggara-barat-4-sumbawa",
+    "name": "Nusa Tenggara Barat-4 (Sumbawa)",
+    "regencies": "Kabupaten Sumbawa",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "nusa-tenggara-barat-5-dompu",
+    "name": "Nusa Tenggara Barat-5 (Dompu)",
+    "regencies": "Kabupaten Bima, Kabupaten Dompu, Kota Bima",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "nusa-tenggara-timur-1-kupang",
+    "name": "Nusa Tenggara Timur-1 (Kupang)",
+    "regencies": "Kabupaten Kupang, Kota Kupang",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "nusa-tenggara-timur-2-soe",
+    "name": "Nusa Tenggara Timur-2 (Soe)",
+    "regencies": "Kabupaten Timor Tengah Selatan",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "nusa-tenggara-timur-3-kefamenanu",
+    "name": "Nusa Tenggara Timur-3 (Kefamenanu)",
+    "regencies": "Kabupaten Timor Tengah Utara",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "nusa-tenggara-timur-4-atambua",
+    "name": "Nusa Tenggara Timur-4 (Atambua)",
+    "regencies": "Kabupaten Belu, Kabupaten Malaka",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "nusa-tenggara-timur-5-rote",
+    "name": "Nusa Tenggara Timur-5 (Rote)",
+    "regencies": "Kabupaten Rote Ndao",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "nusa-tenggara-timur-6-sabu",
+    "name": "Nusa Tenggara Timur-6 (Sabu)",
+    "regencies": "Kabupaten Sabu Raijua",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "nusa-tenggara-timur-7-waingapu",
+    "name": "Nusa Tenggara Timur-7 (Waingapu)",
+    "regencies": "Kabupaten Sumba Timur",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "nusa-tenggara-timur-8-wakaibubak",
+    "name": "Nusa Tenggara Timur-8 (Wakaibubak)",
+    "regencies": "Kabupaten Sumba Barat, Kabupaten Sumba Barat Daya, Kabupaten Sumba Tengah",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "nusa-tenggara-timur-9-labuan-bajo",
+    "name": "Nusa Tenggara Timur-9 (Labuan Bajo)",
+    "regencies": "Kabupaten Manggarai Barat",
+    "uhf": [27, 46, 47, 48],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "nusa-tenggara-timur-10-ruteng",
+    "name": "Nusa Tenggara Timur-10 (Ruteng)",
+    "regencies": "Kabupaten Manggarai, Kabupaten Manggarai Timur",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "nusa-tenggara-timur-11-bajawa",
+    "name": "Nusa Tenggara Timur-11 (Bajawa)",
+    "regencies": "Kabupaten Nagekeo, Kabupaten Ngada",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "nusa-tenggara-timur-12-ende",
+    "name": "Nusa Tenggara Timur-12 (Ende)",
+    "regencies": "Kabupaten Ende",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "nusa-tenggara-timur-13-maumere",
+    "name": "Nusa Tenggara Timur-13 (Maumere)",
+    "regencies": "Kabupaten Sikka",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "nusa-tenggara-timur-14-larantuka",
+    "name": "Nusa Tenggara Timur-14 (Larantuka)",
+    "regencies": "Kabupaten Flores Timur",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "nusa-tenggara-timur-15-lembata",
+    "name": "Nusa Tenggara Timur-15 (Lembata)",
+    "regencies": "Kabupaten Lembata",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "nusa-tenggara-timur-16-kalabahi",
+    "name": "Nusa Tenggara Timur-16 (Kalabahi)",
+    "regencies": "Kabupaten Alor",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "kalimantan-barat-1-pontianak",
+    "name": "Kalimantan Barat-1 (Pontianak)",
+    "regencies": "Kabupaten Kubu Raya, Kabupaten Mempawah, Kota Pontianak",
+    "uhf": [29, 35, 41, 47],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "kalimantan-barat-2-ngabang",
+    "name": "Kalimantan Barat-2 (Ngabang)",
+    "regencies": "Kabupaten Landak",
+    "uhf": [30, 33, 39, 45],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "kalimantan-barat-3-singkawang",
+    "name": "Kalimantan Barat-3 (Singkawang)",
+    "regencies": "Kabupaten Bengkayang, Kota Singkawang",
+    "uhf": [34, 38, 42],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "kalimantan-barat-4-sambas",
+    "name": "Kalimantan Barat-4 (Sambas)",
+    "regencies": "Kabupaten Sambas",
+    "uhf": [36, 40, 44, 48],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "kalimantan-barat-5-sanggau",
+    "name": "Kalimantan Barat-5 (Sanggau)",
+    "regencies": "Kabupaten Sanggau, Kabupaten Sekadau",
+    "uhf": [36, 40, 44, 48],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "kalimantan-barat-6-sintang",
+    "name": "Kalimantan Barat-6 (Sintang)",
+    "regencies": "Kabupaten Sintang",
+    "uhf": [34, 38, 42],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "kalimantan-barat-7-putussibau",
+    "name": "Kalimantan Barat-7 (Putussibau)",
+    "regencies": "Kabupaten Kapuas Hulu",
+    "uhf": [36, 40, 44, 48],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "kalimantan-barat-8-nangapinoh",
+    "name": "Kalimantan Barat-8 (Nangapinoh)",
+    "regencies": "Kabupaten Melawi",
+    "uhf": [27, 46, 47, 48],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "kalimantan-barat-9-ketapang",
+    "name": "Kalimantan Barat-9 (Ketapang)",
+    "regencies": "Kabupaten Ketapang",
+    "uhf": [28, 31, 37, 43],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "kalimantan-barat-10-kayong",
+    "name": "Kalimantan Barat-10 (Kayong)",
+    "regencies": "Kabupaten Kayong Utara",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "kalimantan-tengah-1-palangkaraya",
+    "name": "Kalimantan Tengah-1 (Palangkaraya)",
+    "regencies": "Kabupaten Pulang Pisau, Kota Palangkaraya",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "kalimantan-tengah-2-buntok",
+    "name": "Kalimantan Tengah-2 (Buntok)",
+    "regencies": "Kabupaten Kapuas, Kabupaten Barito Selatan, Kabupaten Barito Timur",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "kalimantan-tengah-3-gunung-mas",
+    "name": "Kalimantan Tengah-3 (Gunung Mas)",
+    "regencies": "Kabupaten Gunung Mas",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "kalimantan-tengah-4-muara-teweh",
+    "name": "Kalimantan Tengah-4 (Muara Teweh)",
+    "regencies": "Kabupaten Barito Utara, Kabupaten Murung Raya",
+    "uhf": [29, 32, 35, 41, 44],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "kalimantan-tengah-5-pangkalan-bun",
+    "name": "Kalimantan Tengah-5 (Pangkalan Bun)",
+    "regencies": "Kabupaten Kotawaringin Barat, Kabupaten Sukamara, Kabupaten Lamandau",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "kalimantan-tengah-6-sampit",
+    "name": "Kalimantan Tengah-6 (Sampit)",
+    "regencies": "Kabupaten Kotawaringin Timur, Kabupaten Katingan",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "kalimantan-tengah-7-seruyan",
+    "name": "Kalimantan Tengah-7 (Seruyan)",
+    "regencies": "Kabupaten Seruyan",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "kalimantan-selatan-1-banjarmasin",
+    "name": "Kalimantan Selatan-1 (Banjarmasin)",
+    "regencies": "Kabupaten Banjar, Kabupaten Barito Kuala, Kabupaten Tanah Laut, Kota Banjarmasin, Kota Banjarbaru",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "kalimantan-selatan-2-amuntai",
+    "name": "Kalimantan Selatan-2 (Amuntai)",
+    "regencies": "Kabupaten Tapin, Kabupaten Hulu Sungai Utara, Kabupaten Hulu Sungai Tengah, Kabupaten Hulu Sungai Selatan, Kabupaten Balangan",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "kalimantan-selatan-3-kotabaru",
+    "name": "Kalimantan Selatan-3 (Kotabaru)",
+    "regencies": "Kabupaten Kotabaru",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "kalimantan-selatan-4-tabalong",
+    "name": "Kalimantan Selatan-4 (Tabalong)",
+    "regencies": "Kabupaten Tabalong",
+    "uhf": [27, 30, 33, 46, 47, 48],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "kalimantan-selatan-5-batulicin",
+    "name": "Kalimantan Selatan-5 (Batulicin)",
+    "regencies": "Kabupaten Tanah Bumbu",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "kalimantan-timur-1-samarinda",
+    "name": "Kalimantan Timur-1 (Samarinda)",
+    "regencies": "Kabupaten Kutai Kartanegara, Kota Samarinda, Kota Bontang",
+    "uhf": [27, 28, 31, 37, 43, 47],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "kalimantan-timur-2-balikpapan",
+    "name": "Kalimantan Timur-2 (Balikpapan)",
+    "regencies": "Kabupaten Penajam Paser Utara, Kota Balikpapan",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "kalimantan-timur-3-sanggata",
+    "name": "Kalimantan Timur-3 (Sanggata)",
+    "regencies": "Kabupaten Kutai Timur",
+    "uhf": [29, 32, 35, 39, 41, 45],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "kalimantan-timur-4-tanjung-redeb",
+    "name": "Kalimantan Timur-4 (Tanjung Redeb)",
+    "regencies": "Kabupaten Berau",
+    "uhf": [28, 31, 34, 37, 38, 43],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "kalimantan-timur-5-sendawar",
+    "name": "Kalimantan Timur-5 (Sendawar)",
+    "regencies": "Kabupaten Kutai Barat",
+    "uhf": [30, 33, 36, 39, 45],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "kalimantan-timur-6-ujoh-bilang",
+    "name": "Kalimantan Timur-6 (Ujoh Bilang)",
+    "regencies": "Kabupaten Mahakam Ulu",
+    "uhf": [34, 38, 42],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "kalimantan-timur-7-tanah-grogot",
+    "name": "Kalimantan Timur-7 (Tanah Grogot)",
+    "regencies": "Kabupaten Paser",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "kalimantan-utara-1-tanjung-selor",
+    "name": "Kalimantan Utara-1 (Tanjung Selor)",
+    "regencies": "Kabupaten Bulungan, Kota Tarakan",
+    "uhf": [27, 30, 33, 39, 45, 47],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "kalimantan-utara-2-malinau",
+    "name": "Kalimantan Utara-2 (Malinau)",
+    "regencies": "Kabupaten Malinau, Kabupaten Tana Tidung",
+    "uhf": [36, 40, 44, 46, 48],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "kalimantan-utara-3-nunukan",
+    "name": "Kalimantan Utara-3 (Nunukan)",
+    "regencies": "Kabupaten Nunukan",
+    "uhf": [28, 32, 34, 38, 42],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sulawesi-utara-1-manado",
+    "name": "Sulawesi Utara-1 (Manado)",
+    "regencies": "Kabupaten Minahasa, Kabupaten Minahasa Utara, Kota Manado, Kota Bitung, Kota Tomohon",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sulawesi-utara-2-kotamobagu",
+    "name": "Sulawesi Utara-2 (Kotamobagu)",
+    "regencies": "Kabupaten Bolaang Mongondow, Kabupaten Bolaang Mongondow Timur, Kabupaten Minahasa Selatan, Kabupaten Minahasa Tenggara, Kota Kotamobagu",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sulawesi-utara-3-pinolusian",
+    "name": "Sulawesi Utara-3 (Pinolusian)",
+    "regencies": "Kabupaten Bolaang Mongondow Selatan",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sulawesi-utara-4-boroko",
+    "name": "Sulawesi Utara-4 (Boroko)",
+    "regencies": "Kabupaten Bolaang Mongondow Utara",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sulawesi-utara-5-ondong-siau",
+    "name": "Sulawesi Utara-5 (Ondong Siau)",
+    "regencies": "Kabupaten Kepulauan Siau Tagulandang Biaro",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sulawesi-utara-6-tahuna",
+    "name": "Sulawesi Utara-6 (Tahuna)",
+    "regencies": "Kabupaten Kepulauan Sangihe",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sulawesi-utara-7-talaud",
+    "name": "Sulawesi Utara-7 (Talaud)",
+    "regencies": "Kabupaten Kepulauan Talaud",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "gorontalo-1-gorontalo",
+    "name": "Gorontalo-1 (Gorontalo)",
+    "regencies": "Kabupaten Gorontalo, Kabupaten Gorontalo Utara, Kabupaten Boalemo, Kabupaten Bone Bolango, Kota Gorontalo",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "gorontalo-2-pahuwato",
+    "name": "Gorontalo-2 (Pahuwato)",
+    "regencies": "Kabupaten Pahuwato",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sulawesi-tengah-1-palu",
+    "name": "Sulawesi Tengah-1 (Palu)",
+    "regencies": "Kabupaten Sigi, Kota Palu",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sulawesi-tengah-2-donggala",
+    "name": "Sulawesi Tengah-2 (Donggala)",
+    "regencies": "Kabupaten Donggala",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sulawesi-tengah-3-tolitoli",
+    "name": "Sulawesi Tengah-3 (Tolitoli)",
+    "regencies": "Kabupaten Tolitoli",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sulawesi-tengah-4-buol",
+    "name": "Sulawesi Tengah-4 (Buol)",
+    "regencies": "Kabupaten Buol",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sulawesi-tengah-5-parigi",
+    "name": "Sulawesi Tengah-5 (Parigi)",
+    "regencies": "Kabupaten Parigi Moutong",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sulawesi-tengah-6-psso",
+    "name": "Sulawesi Tengah-6 (Psso)",
+    "regencies": "Kabupaten Poso, Kabupaten Tojo Una Una",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sulawesi-tengah-7-morowali",
+    "name": "Sulawesi Tengah-7 (Morowali)",
+    "regencies": "Kabupaten Morowali, Kabupaten Morowali Utara",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sulawesi-tengah-8-luwuk",
+    "name": "Sulawesi Tengah-8 (Luwuk)",
+    "regencies": "Kabupaten Banggai",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sulawesi-tengah-9-salakan",
+    "name": "Sulawesi Tengah-9 (Salakan)",
+    "regencies": "Kabupaten Banggai Kepulauan, Kabupaten Banggai Laut",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sulawesi-barat-1-mamuju",
+    "name": "Sulawesi Barat-1 (Mamuju)",
+    "regencies": "Kabupaten Mamuju",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sulawesi-barat-2-mamasa",
+    "name": "Sulawesi Barat-2 (Mamasa)",
+    "regencies": "Kabupaten Mamasa",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sulawesi-barat-3-polewali",
+    "name": "Sulawesi Barat-3 (Polewali)",
+    "regencies": "Kabupaten Polewali Mandar, Kabupaten Majene",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sulawesi-barat-4-pasangkayu",
+    "name": "Sulawesi Barat-4 (Pasangkayu)",
+    "regencies": "Kabupaten Mamuju Utara, Kabupaten Mamuju Tengah",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sulawesi-selatan-1-makassar",
+    "name": "Sulawesi Selatan-1 (Makassar)",
+    "regencies": "Kabupaten Gowa, Kabupaten Maros, Kabupaten Takalar, Kabupaten Pangkajene dan Kepulauan, Kota Makassar",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sulawesi-selatan-2-bantaeng",
+    "name": "Sulawesi Selatan-2 (Bantaeng)",
+    "regencies": "Kabupaten Kepulauan Selayar, Kabupaten Bulukumba, Kabupaten Bantaeng, Kabupaten Jeneponto",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sulawesi-selatan-3-barru",
+    "name": "Sulawesi Selatan-3 (Barru)",
+    "regencies": "Kabupaten Barru",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sulawesi-selatan-4-makale",
+    "name": "Sulawesi Selatan-4 (Makale)",
+    "regencies": "Kabupaten Tana Toraja, Kabupaten Toraja Utara",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sulawesi-selatan-5-palopo",
+    "name": "Sulawesi Selatan-5 (Palopo)",
+    "regencies": "Kabupaten Luwu, Kabupaten Luwu Utara, Kota Palopo",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sulawesi-selatan-6-parepare",
+    "name": "Sulawesi Selatan-6 (Parepare)",
+    "regencies": "Kabupaten Sidenreng Rappang, Kabupaten Enrekang, Kabupaten Pinrang, Kota Parepare",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sulawesi-selatan-7-bone",
+    "name": "Sulawesi Selatan-7 (Bone)",
+    "regencies": "Kabupaten Bone, Kabupaten Soppeng, Kabupaten Wajo",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sulawesi-selatan-8-sinjai",
+    "name": "Sulawesi Selatan-8 (Sinjai)",
+    "regencies": "Kabupaten Sinjai",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sulawesi-selatan-9-wawondula",
+    "name": "Sulawesi Selatan-9 (Wawondula)",
+    "regencies": "Kabupaten Luwu Timur",
+    "uhf": [27, 46, 47, 48],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sulawesi-tenggara-1-kendari",
+    "name": "Sulawesi Tenggara-1 (Kendari)",
+    "regencies": "Kabupaten Konawe, Kabupaten Konawe Selatan, Kabupaten Konawe Utara, Kabupaten Konawe Kepulauan, Kota Kendari",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sulawesi-tenggara-2-baubau",
+    "name": "Sulawesi Tenggara-2 (Baubau)",
+    "regencies": "Kabupaten Muna, Kabupaten Muna Barat, Kabupaten Buton Tengah, Kota Baubau",
+    "uhf": [27, 46, 47, 48],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sulawesi-tenggara-3-boepinang",
+    "name": "Sulawesi Tenggara-3 (Boepinang)",
+    "regencies": "Kabupaten Bombana",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sulawesi-tenggara-4-kolaka",
+    "name": "Sulawesi Tenggara-4 (Kolaka)",
+    "regencies": "Kabupaten Kolaka, Kabupaten Kolaka Utara, Kabupaten Kolaka Timur",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "sulawesi-tenggara-5-wakatobi",
+    "name": "Sulawesi Tenggara-5 (Wakatobi)",
+    "regencies": "Kabupaten Buton, Kabupaten Buton Utara, Kabupaten Buton Selatan, Kabupaten Wakatobi",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "maluku-1-ambon",
+    "name": "Maluku-1 (Ambon)",
+    "regencies": "Kabupaten Seram Bagian Barat, Kota Ambon",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "maluku-2-masohi",
+    "name": "Maluku-2 (Masohi)",
+    "regencies": "Kabupaten Maluku Tengah, Kabupaten Seram Bagian Timur",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "maluku-3-namlea",
+    "name": "Maluku-3 (Namlea)",
+    "regencies": "Kabupaten Buru, Kabupaten Buru Selatan",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "maluku-4-saumlaki",
+    "name": "Maluku-4 (Saumlaki)",
+    "regencies": "Kabupaten Maluku Tenggara Barat",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "maluku-5-dobo",
+    "name": "Maluku-5 (Dobo)",
+    "regencies": "Kabupaten Kepulauan Aru",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "maluku-6-tual",
+    "name": "Maluku-6 (Tual)",
+    "regencies": "Kabupaten Maluku Tenggara, Kota Tual",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "maluku-7-maluku-baday",
+    "name": "Maluku-7 (Maluku Baday)",
+    "regencies": "Kabupaten Maluku Barat Daya",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "maluku-utara-1-ternate",
+    "name": "Maluku Utara-1 (Ternate)",
+    "regencies": "Kabupaten Halmahera Barat, Kota Ternate",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "maluku-utara-2-morotai",
+    "name": "Maluku Utara-2 (Morotai)",
+    "regencies": "Kabupaten Halmahera Utara, Kabupaten Pulau Morotai",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "maluku-utara-3-tidore",
+    "name": "Maluku Utara-3 (Tidore)",
+    "regencies": "Kabupaten Halmahera Selatan, Kota Tidore Kepulauan",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "maluku-utara-4-talibu",
+    "name": "Maluku Utara-4 (Talibu)",
+    "regencies": "Kabupaten Kepulauan Sula, Kabupaten Pulau Taliabu",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "maluku-utara-5-halmahera",
+    "name": "Maluku Utara-5 (Halmahera)",
+    "regencies": "Kabupaten Halmahera Tengah, Kabupaten Halmahera Timur",
+    "uhf": [27, 46, 47, 48],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "papua-1-jayapura",
+    "name": "Papua-1 (Jayapura)",
+    "regencies": "Kota Jayapura, Kabupaten Jayapura, Kabupaten Keerom",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "papua-2-pegunungan-bintang",
+    "name": "Papua-2 (Pegunungan Bintang)",
+    "regencies": "Kabupaten Pegunungan Bintang",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "papua-3-tanah-merah",
+    "name": "Papua-3 (Tanah Merah)",
+    "regencies": "Kabupaten Boven Digoel",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "papua-4-merauke",
+    "name": "Papua-4 (Merauke)",
+    "regencies": "Kabupaten Merauke",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "papua-5-mappi",
+    "name": "Papua-5 (Mappi)",
+    "regencies": "Kabupaten Mappi",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "papua-6-mulia",
+    "name": "Papua-6 (Mulia)",
+    "regencies": "Kabupaten Tolikara, Kabupaten Asmat, Kabupaten Lanny Jaya, Kabupaten Nduga",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "papua-7-wamena",
+    "name": "Papua-7 (Wamena)",
+    "regencies": "Kabupaten Jayawijaya, Kabupaten Yahukimo, Kabupaten Yalimo, Kabupaten Mamberamo Raya, Kabupaten Mamberamo Tengah",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "papua-8-puncak-jaya",
+    "name": "Papua-8 (Puncak Jaya)",
+    "regencies": "Kabupaten Puncak, Kabupaten Puncak Jaya",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "papua-9-timika",
+    "name": "Papua-9 (Timika)",
+    "regencies": "Kabupaten Mimika",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "papua-10-painai",
+    "name": "Papua-10 (Painai",
+    "regencies": "Kabupaten Intan Jaya, Kabupaten Paniai, Kabupaten Dogiyai, Kabupaten Deiyai",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "papua-11-nabire",
+    "name": "Papua-11 (Nabire)",
+    "regencies": "Kabupaten Nabire",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "papua-12-serui",
+    "name": "Papua-12 (Serui)",
+    "regencies": "Kabupaten Kepulauan Yapen, Kabupaten Waropen",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "papua-13-biak",
+    "name": "Papua-13 (Biak)",
+    "regencies": "Kabupaten Biak Numfor, Kabupaten Supiori",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "papua-14-sarmi",
+    "name": "Papua-14 (Sarmi)",
+    "regencies": "Kabupaten Sarmi",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "papua-barat-1-sorong",
+    "name": "Papua Barat-1 (Sorong)",
+    "regencies": "Kota Sorong, Kabupaten Sorong",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "papua-barat-2-raja-ampat",
+    "name": "Papua Barat-2 (Raja Ampat)",
+    "regencies": "Kabupaten Raja Ampat",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "papua-barat-3-tambrauw",
+    "name": "Papua Barat-3 (Tambrauw)",
+    "regencies": "Kabupaten Tambrauw",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "papua-barat-4-manokwari",
+    "name": "Papua Barat-4 (Manokwari)",
+    "regencies": "Kabupaten Manokwari, Kabupaten Manokwari Selatan, Kabupaten Pegunungan Arfak",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": true,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "papua-barat-5-kumurkek",
+    "name": "Papua Barat-5 (Kumurkek)",
+    "regencies": "Kabupaten Maybrat",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "papua-barat-6-teminabuhan",
+    "name": "Papua Barat-6 (Teminabuhan)",
+    "regencies": "Kabupaten Sorong Selatan",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "papua-barat-7-bintuni",
+    "name": "Papua Barat-7 (Bintuni)",
+    "regencies": "Kabupaten Teluk Bintuni",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "papua-barat-8-fakfak",
+    "name": "Papua Barat-8 (Fakfak)",
+    "regencies": "Kabupaten Fakfak",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "papua-barat-9-kaimana",
+    "name": "Papua Barat-9 (Kaimana)",
+    "regencies": "Kabupaten Kaimana",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "papua-barat-10-teluk-wondama",
+    "name": "Papua Barat-10 (Teluk Wondama)",
+    "regencies": "Kabupaten Teluk Wondama",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "rowspan-12-sumatera-utara",
+    "name": "rowspan=12|Sumatera Utara",
+    "regencies": "Medan",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "rowspan-11-riau",
+    "name": "rowspan=11|Riau",
+    "regencies": "Pekanbaru",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "rowspan-7-jambi",
+    "name": "rowspan=7|Jambi",
+    "regencies": "Jambi",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "rowspan-3-bangka-belitung",
+    "name": "rowspan=3|Bangka Belitung",
+    "regencies": "Pangkal Pinang",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "rowspan-3-bengkulu",
+    "name": "rowspan=3|Bengkulu",
+    "regencies": "Bengkulu dan Curup",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "rowspan-8-lampung",
+    "name": "rowspan=8|Lampung",
+    "regencies": "Tanjung Karang dan Metro",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "dki-jakarta",
+    "name": "DKI Jakarta",
+    "regencies": "Jakarta, Bogor, Depok, Tangerang, Bekasi",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "di-yogyakarta",
+    "name": "DI Yogyakarta",
+    "regencies": "Yogyakarta, Wonosari, Solo, Sleman dan Wates",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "rowspan-4-nusa-tenggara-barat",
+    "name": "rowspan=4|Nusa Tenggara Barat",
+    "regencies": "Mataram",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "rowspan-13-nusa-tenggara-timur",
+    "name": "rowspan=13|Nusa Tenggara Timur",
+    "regencies": "Kupang",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "rowspan-3-papua-barat",
+    "name": "rowspan=3|Papua Barat",
+    "regencies": "Sorong",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "rowspan-2-maluku-utara",
+    "name": "rowspan=2|Maluku Utara",
+    "regencies": "Ternate",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "rowspan-11-sulawesi-selatan",
+    "name": "rowspan=11|Sulawesi Selatan",
+    "regencies": "Makasar, Maros, Sungguminasa, Pangkajene dan Takalar",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "rowspan-2-sulawesi-tenggara",
+    "name": "rowspan=2|Sulawesi Tenggara",
+    "regencies": "Kendari",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "rowspan-2-gorontalo",
+    "name": "rowspan=2|Gorontalo",
+    "regencies": "Gorontalo",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "rowspan-5-sulawesi-utara",
+    "name": "rowspan=5|Sulawesi Utara",
+    "regencies": "Manado",
+    "uhf": [29, 32, 35, 38, 41, 44],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "rowspan-6-kalimantan-timur",
+    "name": "rowspan=6|Kalimantan Timur",
+    "regencies": "Palangkaraya",
+    "uhf": [30, 33, 36, 39, 42, 45],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  },
+  {
+    "id": "rowspan-6-kalimantan-selatan",
+    "name": "rowspan=6|Kalimantan Selatan",
+    "regencies": "Banjarmasin, Martapura dan Marabahan",
+    "uhf": [28, 31, 34, 37, 40, 43],
+    "aso": false,
+    "source": "https://id.wikipedia.org/w/index.php?oldid=29925510"
+  }
+]

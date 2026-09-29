@@ -1,0 +1,2533 @@
+[
+  {
+    "id": "osm-node-460449426",
+    "name": "TVRI",
+    "area": "riau-1-pekanbaru",
+    "lat": 0.57523,
+    "lon": 101.47176,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 666,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/460449426"]
+  },
+  {
+    "id": "osm-node-703792003",
+    "name": "Batam Tv",
+    "area": "kepulauan-riau-1-batam",
+    "lat": 1.18041,
+    "lon": 104.01441,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 690,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/703792003"]
+  },
+  {
+    "id": "osm-node-1919595255",
+    "name": "Menara Pemancar",
+    "area": "nusa-tenggara-timur-1-kupang",
+    "lat": -10.14974,
+    "lon": 123.61747,
+    "height_m": 34,
+    "erp_kw": 5,
+    "freq_mhz": 658,
+    "confidence": {
+      "location": "osm",
+      "height": "osm",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/1919595255"]
+  },
+  {
+    "id": "osm-node-1921989959",
+    "name": "Menara Seleparang TV Lombok Timur",
+    "area": "nusa-tenggara-barat-1-mataram",
+    "lat": -8.63511,
+    "lon": 116.37667,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 658,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/1921989959"]
+  },
+  {
+    "id": "osm-node-1976356197",
+    "name": "Transmisi TVRI Seganteng",
+    "area": "nusa-tenggara-barat-1-mataram",
+    "lat": -8.58771,
+    "lon": 116.34719,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 658,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/1976356197"]
+  },
+  {
+    "id": "osm-node-1976357160",
+    "name": "Transmisi TVRI Mataram",
+    "area": "nusa-tenggara-barat-1-mataram",
+    "lat": -8.58678,
+    "lon": 116.0887,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 658,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/1976357160", "https://www.openstreetmap.org/node/2690665424"]
+  },
+  {
+    "id": "osm-node-1976377417",
+    "name": "Transmisi TVRI Swla",
+    "area": "nusa-tenggara-barat-3-sumbawa-barat",
+    "lat": -8.52314,
+    "lon": 116.57408,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 650,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/1976377417"]
+  },
+  {
+    "id": "osm-node-2359594547",
+    "name": "Menara TVRI",
+    "area": "sulawesi-tenggara-5-wakatobi",
+    "lat": -4.80249,
+    "lon": 123.18031,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 650,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/2359594547"]
+  },
+  {
+    "id": "osm-node-2441136330",
+    "name": "Pemancar Telkom",
+    "area": "bengkulu-5-arga-makmur",
+    "lat": -3.79615,
+    "lon": 102.2659,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 658,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/2441136330", "https://www.openstreetmap.org/node/2441136331"]
+  },
+  {
+    "id": "osm-node-2553773130",
+    "name": "Pemancar TVRI",
+    "area": "nusa-tenggara-barat-5-dompu",
+    "lat": -8.5417,
+    "lon": 118.44613,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 658,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/2553773130"]
+  },
+  {
+    "id": "osm-node-2670043329",
+    "name": "TV Rellay",
+    "area": "jawa-barat-1-bandung",
+    "lat": -6.76486,
+    "lon": 107.60328,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 658,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/2670043329"]
+  },
+  {
+    "id": "osm-node-2778857251",
+    "name": "Stasiun Pemancar RCTI bandung",
+    "area": "jawa-barat-1-bandung",
+    "lat": -6.81494,
+    "lon": 107.56201,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 658,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": [
+      "https://www.openstreetmap.org/node/2778857251",
+      "https://www.openstreetmap.org/node/2778857255",
+      "https://www.openstreetmap.org/node/2778857259",
+      "https://www.openstreetmap.org/node/2778857262",
+      "https://www.openstreetmap.org/node/2778857289",
+      "https://www.openstreetmap.org/node/2778857297"
+    ]
+  },
+  {
+    "id": "osm-node-2808601768",
+    "name": "Menara Pemancar",
+    "area": "sulawesi-selatan-2-bantaeng",
+    "lat": -5.54245,
+    "lon": 120.19718,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 666,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/2808601768"]
+  },
+  {
+    "id": "osm-node-3145098338",
+    "name": "Tower TVRI",
+    "area": "aceh-9-blangkejeren",
+    "lat": 3.73657,
+    "lon": 96.83888,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 690,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/3145098338"]
+  },
+  {
+    "id": "osm-node-3507896124",
+    "name": "Tower TVRI",
+    "area": "sulawesi-selatan-8-sinjai",
+    "lat": -5.25006,
+    "lon": 119.93769,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 658,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/3507896124"]
+  },
+  {
+    "id": "osm-node-3670261827",
+    "name": "Metro TV",
+    "area": "bali-denpasar",
+    "lat": -8.8224,
+    "lon": 115.1858,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 666,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": [
+      "https://www.openstreetmap.org/node/3670261827",
+      "https://www.openstreetmap.org/node/5936947078",
+      "https://www.openstreetmap.org/node/5936947079",
+      "https://www.openstreetmap.org/node/12065640530"
+    ]
+  },
+  {
+    "id": "osm-node-4017367219",
+    "name": "Menara Transmisi TVRI Haruai",
+    "area": "kalimantan-selatan-4-tabalong",
+    "lat": -1.9873,
+    "lon": 115.59469,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 690,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/4017367219"]
+  },
+  {
+    "id": "osm-node-4202184733",
+    "name": "Menara Bali TV",
+    "area": "bali-denpasar",
+    "lat": -8.62632,
+    "lon": 115.18446,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 666,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/4202184733"]
+  },
+  {
+    "id": "osm-node-4462880448",
+    "name": "Menara TV Jawa Timur-1 (Surabaya)",
+    "area": "jawa-timur-1-surabaya",
+    "lat": -7.28255,
+    "lon": 112.77248,
+    "height_m": 30,
+    "erp_kw": 5,
+    "freq_mhz": 658,
+    "confidence": {
+      "location": "osm",
+      "height": "osm",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/4462880448", "https://www.openstreetmap.org/node/4467515086"]
+  },
+  {
+    "id": "osm-node-4472339503",
+    "name": "Smart Teleco Smart Telecom",
+    "area": "jawa-timur-1-surabaya",
+    "lat": -7.28538,
+    "lon": 112.80415,
+    "height_m": 30,
+    "erp_kw": 5,
+    "freq_mhz": 658,
+    "confidence": {
+      "location": "osm",
+      "height": "osm",
+      "erp": "estimated"
+    },
+    "source": [
+      "https://www.openstreetmap.org/node/4472339503",
+      "https://www.openstreetmap.org/node/4472339516",
+      "https://www.openstreetmap.org/node/4472339517"
+    ]
+  },
+  {
+    "id": "osm-node-4493546778",
+    "name": "Menara TV Jawa Timur-1 (Surabaya)",
+    "area": "jawa-timur-1-surabaya",
+    "lat": -7.30024,
+    "lon": 112.64412,
+    "height_m": 35,
+    "erp_kw": 5,
+    "freq_mhz": 658,
+    "confidence": {
+      "location": "osm",
+      "height": "osm",
+      "erp": "estimated"
+    },
+    "source": [
+      "https://www.openstreetmap.org/node/4493546778",
+      "https://www.openstreetmap.org/node/4493546779",
+      "https://www.openstreetmap.org/node/4493548622"
+    ]
+  },
+  {
+    "id": "osm-node-4507502714",
+    "name": "Tower Metro TV",
+    "area": "jawa-timur-1-surabaya",
+    "lat": -7.27812,
+    "lon": 112.67617,
+    "height_m": 200,
+    "erp_kw": 5,
+    "freq_mhz": 658,
+    "confidence": {
+      "location": "osm",
+      "height": "osm",
+      "erp": "estimated"
+    },
+    "source": [
+      "https://www.openstreetmap.org/node/4507502714",
+      "https://www.openstreetmap.org/node/4507502715",
+      "https://www.openstreetmap.org/node/4507502716",
+      "https://www.openstreetmap.org/node/4507502717",
+      "https://www.openstreetmap.org/node/4721412545"
+    ]
+  },
+  {
+    "id": "osm-node-4518450315",
+    "name": "Tower SCTV",
+    "area": "jawa-timur-1-surabaya",
+    "lat": -7.27707,
+    "lon": 112.69599,
+    "height_m": 35,
+    "erp_kw": 5,
+    "freq_mhz": 658,
+    "confidence": {
+      "location": "osm",
+      "height": "osm",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/4518450315"]
+  },
+  {
+    "id": "osm-node-4520374045",
+    "name": "Tower TVRI",
+    "area": "jawa-timur-1-surabaya",
+    "lat": -7.28949,
+    "lon": 112.71398,
+    "height_m": 45,
+    "erp_kw": 5,
+    "freq_mhz": 658,
+    "confidence": {
+      "location": "osm",
+      "height": "osm",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/4520374045"]
+  },
+  {
+    "id": "osm-node-4910065571",
+    "name": "Stasiun Transmisi TV Digital DVB-T2 TVRI",
+    "area": "dki-jakarta",
+    "lat": -6.22072,
+    "lon": 106.72575,
+    "height_m": 120,
+    "erp_kw": 5,
+    "freq_mhz": 666,
+    "confidence": {
+      "location": "osm",
+      "height": "osm",
+      "erp": "estimated"
+    },
+    "source": [
+      "https://www.openstreetmap.org/node/4910065571",
+      "https://www.openstreetmap.org/node/4910065574",
+      "https://www.openstreetmap.org/node/4974451802",
+      "https://www.openstreetmap.org/node/4974451803",
+      "https://www.openstreetmap.org/node/4974451807",
+      "https://www.openstreetmap.org/node/12126437589"
+    ]
+  },
+  {
+    "id": "osm-node-5181118430",
+    "name": "Menara TV Nusa Tenggara Timur-7 (Waingapu)",
+    "area": "nusa-tenggara-timur-7-waingapu",
+    "lat": -9.67704,
+    "lon": 120.19342,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 650,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/5181118430"]
+  },
+  {
+    "id": "osm-node-5184013805",
+    "name": "Menara TV Riau-1 (Pekanbaru)",
+    "area": "riau-1-pekanbaru",
+    "lat": 0.51765,
+    "lon": 101.42828,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 666,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/5184013805"]
+  },
+  {
+    "id": "osm-node-5402718254",
+    "name": "Menara Pemancar TV Kutim",
+    "area": "kalimantan-timur-3-sanggata",
+    "lat": 0.53036,
+    "lon": 117.60443,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 666,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/5402718254"]
+  },
+  {
+    "id": "osm-node-5441586779",
+    "name": "SCTV - RCTI",
+    "area": "jawa-timur-7-kediri",
+    "lat": -7.86294,
+    "lon": 111.85231,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 666,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": [
+      "https://www.openstreetmap.org/node/5441586779",
+      "https://www.openstreetmap.org/node/11377121331",
+      "https://www.openstreetmap.org/node/11377131891",
+      "https://www.openstreetmap.org/node/11377132425"
+    ]
+  },
+  {
+    "id": "osm-node-5623648335",
+    "name": "Metro TV",
+    "area": "jawa-tengah-1-semarang",
+    "lat": -7.04426,
+    "lon": 110.42467,
+    "height_m": 70,
+    "erp_kw": 5,
+    "freq_mhz": 666,
+    "confidence": {
+      "location": "osm",
+      "height": "osm",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/5623648335"]
+  },
+  {
+    "id": "osm-node-6265109776",
+    "name": "Stasiun Pemancar SCTV / INDOSIAR",
+    "area": "riau-1-pekanbaru",
+    "lat": 0.50943,
+    "lon": 101.5019,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 666,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/6265109776", "https://www.openstreetmap.org/node/9811681735"]
+  },
+  {
+    "id": "osm-node-7638225525",
+    "name": "Menara TV Sumatera Utara-1 (Medan)",
+    "area": "sumatera-utara-1-medan",
+    "lat": 3.59597,
+    "lon": 98.67437,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 650,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/7638225525"]
+  },
+  {
+    "id": "osm-node-8099628426",
+    "name": "Stasiun Transmisi TVRI Gunung Intan",
+    "area": "kalimantan-timur-7-tanah-grogot",
+    "lat": -1.50518,
+    "lon": 116.42602,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 650,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/8099628426"]
+  },
+  {
+    "id": "osm-node-8158260492",
+    "name": "Menara TV Jawa Tengah-8 (Purworejo)",
+    "area": "jawa-tengah-8-purworejo",
+    "lat": -7.71078,
+    "lon": 109.91342,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 666,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/8158260492"]
+  },
+  {
+    "id": "osm-node-8246216374",
+    "name": "Menara TV Jawa Timur-6 (Banyuwangi)",
+    "area": "jawa-timur-6-banyuwangi",
+    "lat": -8.32923,
+    "lon": 114.25088,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 650,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/8246216374"]
+  },
+  {
+    "id": "osm-node-8247741900",
+    "name": "Menara TV Jawa Timur-6 (Banyuwangi)",
+    "area": "jawa-timur-6-banyuwangi",
+    "lat": -8.25342,
+    "lon": 113.93534,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 650,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/8247741900"]
+  },
+  {
+    "id": "osm-node-8833969777",
+    "name": "Menara TV Kepulauan Riau-1 (Batam)",
+    "area": "kepulauan-riau-1-batam",
+    "lat": 0.84336,
+    "lon": 104.59991,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 690,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/8833969777", "https://www.openstreetmap.org/way/1047159115"]
+  },
+  {
+    "id": "osm-node-9064024124",
+    "name": "Menara TV Jawa Barat-3 (Cirebon)",
+    "area": "jawa-barat-3-cirebon",
+    "lat": -6.68599,
+    "lon": 108.54823,
+    "height_m": 85,
+    "erp_kw": 5,
+    "freq_mhz": 658,
+    "confidence": {
+      "location": "osm",
+      "height": "osm",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/9064024124"]
+  },
+  {
+    "id": "osm-node-9660243256",
+    "name": "Menara TV Sumatera Utara-4 (Balige)",
+    "area": "sumatera-utara-4-balige",
+    "lat": 2.66658,
+    "lon": 98.92711,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 690,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/9660243256"]
+  },
+  {
+    "id": "osm-node-10003328348",
+    "name": "Menara TV Kepulauan Riau-4 (Daik)",
+    "area": "kepulauan-riau-4-daik",
+    "lat": 0.44762,
+    "lon": 104.43159,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 682,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/10003328348"]
+  },
+  {
+    "id": "osm-node-10003328358",
+    "name": "Menara TV Kepulauan Riau-4 (Daik)",
+    "area": "kepulauan-riau-4-daik",
+    "lat": 0.4712,
+    "lon": 104.45265,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 682,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/10003328358"]
+  },
+  {
+    "id": "osm-node-10048594626",
+    "name": "Metro TV Cirebon DVB-T2",
+    "area": "jawa-barat-3-cirebon",
+    "lat": -6.81157,
+    "lon": 108.43746,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 658,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": [
+      "https://www.openstreetmap.org/node/10048594626",
+      "https://www.openstreetmap.org/node/10938902776",
+      "https://www.openstreetmap.org/node/10938902777"
+    ]
+  },
+  {
+    "id": "osm-node-10048594627",
+    "name": "Indosiar Cirebon",
+    "area": "jawa-barat-3-cirebon",
+    "lat": -6.80582,
+    "lon": 108.40347,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 658,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/10048594627", "https://www.openstreetmap.org/node/10048594634"]
+  },
+  {
+    "id": "osm-node-10252101933",
+    "name": "DVBT2 TVRI",
+    "area": "banten-3-lebak",
+    "lat": -5.98532,
+    "lon": 106.04496,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 666,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/10252101933"]
+  },
+  {
+    "id": "osm-node-10617451419",
+    "name": "Menara TV Banten-3 (Lebak)",
+    "area": "banten-3-lebak",
+    "lat": -6.52781,
+    "lon": 106.54682,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 666,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/10617451419", "https://www.openstreetmap.org/node/11994919705"]
+  },
+  {
+    "id": "osm-node-10839957010",
+    "name": "Pemancar",
+    "area": "jawa-tengah-5-magelang",
+    "lat": -7.44236,
+    "lon": 110.4369,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 650,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/10839957010"]
+  },
+  {
+    "id": "osm-node-11008067158",
+    "name": "Menara TV Jawa Tengah-5 (Magelang)",
+    "area": "jawa-tengah-5-magelang",
+    "lat": -7.35535,
+    "lon": 110.3919,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 650,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/11008067158"]
+  },
+  {
+    "id": "osm-node-11217206116",
+    "name": "Menara TV Bengkulu-2 (Manna)",
+    "area": "bengkulu-2-manna",
+    "lat": -4.7815,
+    "lon": 103.32992,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 666,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/11217206116"]
+  },
+  {
+    "id": "osm-node-11563282714",
+    "name": "Menara TV Jambi-4 (Sungai Penuh)",
+    "area": "jambi-4-sungai-penuh",
+    "lat": -2.0341,
+    "lon": 101.4082,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 666,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/11563282714"]
+  },
+  {
+    "id": "osm-node-11730001131",
+    "name": "Stastion TVRI Bengkulu",
+    "area": "bengkulu-5-arga-makmur",
+    "lat": -3.76765,
+    "lon": 102.31154,
+    "height_m": 50,
+    "erp_kw": 5,
+    "freq_mhz": 658,
+    "confidence": {
+      "location": "osm",
+      "height": "osm",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/11730001131"]
+  },
+  {
+    "id": "osm-node-12136881842",
+    "name": "Tower pemancar",
+    "area": "maluku-3-namlea",
+    "lat": -3.84092,
+    "lon": 126.74063,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 650,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/12136881842"]
+  },
+  {
+    "id": "osm-node-12180749265",
+    "name": "Stasiun Pemancar Trans7 Balikpapan",
+    "area": "kalimantan-timur-2-balikpapan",
+    "lat": -1.24793,
+    "lon": 116.83896,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 658,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": [
+      "https://www.openstreetmap.org/node/12180749265",
+      "https://www.openstreetmap.org/node/12180751197",
+      "https://www.openstreetmap.org/node/12180793130",
+      "https://www.openstreetmap.org/node/13151985816"
+    ]
+  },
+  {
+    "id": "osm-node-12180816703",
+    "name": "Stasiun Pemancar TVRI Balikpapan",
+    "area": "kalimantan-timur-2-balikpapan",
+    "lat": -1.20491,
+    "lon": 116.86078,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 658,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/12180816703"]
+  },
+  {
+    "id": "osm-node-12228605491",
+    "name": "Relay TVRI Jawa Barat Tower Tambaksari",
+    "area": "jawa-barat-4-tasikmalaya",
+    "lat": -7.23858,
+    "lon": 108.53317,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 666,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/12228605491"]
+  },
+  {
+    "id": "osm-node-12323002045",
+    "name": "Menara Ex.Pemancar TVRI Gn.Pancur",
+    "area": "kalimantan-timur-2-balikpapan",
+    "lat": -1.26195,
+    "lon": 116.8219,
+    "height_m": 109,
+    "erp_kw": 5,
+    "freq_mhz": 658,
+    "confidence": {
+      "location": "osm",
+      "height": "osm",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/12323002045"]
+  },
+  {
+    "id": "osm-node-12407503609",
+    "name": "TVRI",
+    "area": "jawa-barat-5-sukabumi",
+    "lat": -6.91357,
+    "lon": 106.83597,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 658,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/12407503609"]
+  },
+  {
+    "id": "osm-node-12496711859",
+    "name": "Menara TV Aceh-3 (Calang)",
+    "area": "aceh-3-calang",
+    "lat": 4.63402,
+    "lon": 95.57845,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 666,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/12496711859"]
+  },
+  {
+    "id": "osm-node-12586295767",
+    "name": "TVRI",
+    "area": "riau-4-dumai",
+    "lat": 1.63559,
+    "lon": 101.40179,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 610,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/12586295767"]
+  },
+  {
+    "id": "osm-node-12813985486",
+    "name": "Menara TV Bengkulu-6 (Mukomuko)",
+    "area": "bengkulu-6-mukomuko",
+    "lat": -2.57827,
+    "lon": 101.12352,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 690,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/12813985486"]
+  },
+  {
+    "id": "osm-node-12923353781",
+    "name": "Menara TVRI",
+    "area": "dki-jakarta",
+    "lat": -6.21279,
+    "lon": 106.8019,
+    "height_m": 147.5,
+    "erp_kw": 5,
+    "freq_mhz": 666,
+    "confidence": {
+      "location": "osm",
+      "height": "osm",
+      "erp": "estimated"
+    },
+    "source": [
+      "https://www.openstreetmap.org/node/12923353781",
+      "https://www.openstreetmap.org/node/12923353782",
+      "https://www.openstreetmap.org/node/12923353783",
+      "https://www.openstreetmap.org/node/12923353784",
+      "https://www.openstreetmap.org/node/12923353785",
+      "https://www.openstreetmap.org/node/12923353786",
+      "https://www.openstreetmap.org/node/12923353787",
+      "https://www.openstreetmap.org/way/1390073974",
+      "https://www.openstreetmap.org/way/1396234212",
+      "https://www.openstreetmap.org/way/1396234213",
+      "https://www.openstreetmap.org/way/1396234214",
+      "https://www.openstreetmap.org/way/1396234215",
+      "https://www.openstreetmap.org/way/1396234216",
+      "https://www.openstreetmap.org/way/1396234217",
+      "https://www.openstreetmap.org/way/1396234218"
+    ]
+  },
+  {
+    "id": "osm-node-12943439108",
+    "name": "Menara TV DKI Jakarta (Jabodetabek)",
+    "area": "dki-jakarta-jabodetabek",
+    "lat": -6.22786,
+    "lon": 106.79714,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 650,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": [
+      "https://www.openstreetmap.org/node/12943439108",
+      "https://www.openstreetmap.org/node/12943439109",
+      "https://www.openstreetmap.org/node/12943439110",
+      "https://www.openstreetmap.org/node/12943439111",
+      "https://www.openstreetmap.org/node/12943439112",
+      "https://www.openstreetmap.org/node/12943439113",
+      "https://www.openstreetmap.org/node/12943439114",
+      "https://www.openstreetmap.org/node/12943439115",
+      "https://www.openstreetmap.org/node/12943439116",
+      "https://www.openstreetmap.org/node/12943439117",
+      "https://www.openstreetmap.org/node/12943439118",
+      "https://www.openstreetmap.org/node/12943439119"
+    ]
+  },
+  {
+    "id": "osm-node-13151962749",
+    "name": "Stasiun Pemancar tvOne Bontang",
+    "area": "kalimantan-timur-3-sanggata",
+    "lat": 0.14826,
+    "lon": 117.45393,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 666,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/13151962749"]
+  },
+  {
+    "id": "osm-node-13151985811",
+    "name": "Stasiun Pemancar SCTV Banten",
+    "area": "banten-3-lebak",
+    "lat": -6.10615,
+    "lon": 105.91355,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 666,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/13151985811", "https://www.openstreetmap.org/way/657864314"]
+  },
+  {
+    "id": "osm-node-13151985817",
+    "name": "Stasiun Pemancar SCTV Samarinda",
+    "area": "kalimantan-timur-1-samarinda",
+    "lat": -0.53592,
+    "lon": 117.14723,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 682,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": [
+      "https://www.openstreetmap.org/node/13151985817",
+      "https://www.openstreetmap.org/node/13151985818",
+      "https://www.openstreetmap.org/node/13151985823",
+      "https://www.openstreetmap.org/node/13151985824",
+      "https://www.openstreetmap.org/node/13151985825",
+      "https://www.openstreetmap.org/node/13151985834"
+    ]
+  },
+  {
+    "id": "osm-node-13238146598",
+    "name": "Stasiun Transmisi MetroTV Sangatta",
+    "area": "kalimantan-timur-3-sanggata",
+    "lat": 0.49646,
+    "lon": 117.50575,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 666,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/13238146598"]
+  },
+  {
+    "id": "osm-node-13238216756",
+    "name": "Stasiun Pemancar Trans7 & MetroTV Tana grogot",
+    "area": "kalimantan-timur-7-tanah-grogot",
+    "lat": -1.90987,
+    "lon": 116.19683,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 650,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/13238216756", "https://www.openstreetmap.org/node/13238216763"]
+  },
+  {
+    "id": "osm-node-13238216764",
+    "name": "Stasiun Transmisi TVRI Long Ikis",
+    "area": "kalimantan-timur-7-tanah-grogot",
+    "lat": -1.56261,
+    "lon": 116.19816,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 650,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/13238216764"]
+  },
+  {
+    "id": "osm-node-13505585473",
+    "name": "Pemancar TVRI Kaltara Tanjung Selor",
+    "area": "kalimantan-utara-1-tanjung-selor",
+    "lat": 2.79759,
+    "lon": 117.38692,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 682,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/13505585473"]
+  },
+  {
+    "id": "osm-node-13875104561",
+    "name": "Pemancar TVRI Nusantara",
+    "area": "kalimantan-timur-2-balikpapan",
+    "lat": -0.95515,
+    "lon": 116.71672,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 658,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/node/13875104561"]
+  },
+  {
+    "id": "osm-way-512419269",
+    "name": "Transmisi MNC Group Manokwari",
+    "area": "papua-barat-4-manokwari",
+    "lat": -0.85844,
+    "lon": 134.07356,
+    "height_m": 33,
+    "erp_kw": 5,
+    "freq_mhz": 650,
+    "confidence": {
+      "location": "osm",
+      "height": "osm",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/way/512419269"]
+  },
+  {
+    "id": "osm-way-575348370",
+    "name": "Menara TV Kalimantan Tengah-1 (Palangkaraya)",
+    "area": "kalimantan-tengah-1-palangkaraya",
+    "lat": -2.21206,
+    "lon": 113.91039,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 666,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/way/575348370"]
+  },
+  {
+    "id": "osm-way-848343442",
+    "name": "Menara TV Kalimantan Selatan-1 (Banjarmasin)",
+    "area": "kalimantan-selatan-1-banjarmasin",
+    "lat": -3.3462,
+    "lon": 114.62485,
+    "height_m": 35,
+    "erp_kw": 5,
+    "freq_mhz": 666,
+    "confidence": {
+      "location": "osm",
+      "height": "osm",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/way/848343442"]
+  },
+  {
+    "id": "osm-way-1294880526",
+    "name": "Menara Sat. TVRI",
+    "area": "sulawesi-selatan-4-makale",
+    "lat": -3.40067,
+    "lon": 119.89181,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 666,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/way/1294880526"]
+  },
+  {
+    "id": "osm-way-1412092432",
+    "name": "Menara TV Jawa Timur-2 (Malang)",
+    "area": "jawa-timur-2-malang",
+    "lat": -7.93766,
+    "lon": 112.57813,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 650,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/way/1412092432"]
+  },
+  {
+    "id": "osm-way-1430767521",
+    "name": "Stasiun Relay tvOne & Trans TV Cilegon",
+    "area": "banten-3-lebak",
+    "lat": -6.0888,
+    "lon": 106.14757,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 666,
+    "confidence": {
+      "location": "osm",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://www.openstreetmap.org/way/1430767521"]
+  },
+  {
+    "id": "area-aceh-1-banda-aceh",
+    "name": "Perkiraan pemancar Aceh-1 (Banda Aceh)",
+    "area": "aceh-1-banda-aceh",
+    "lat": 5.55285,
+    "lon": 95.31929,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 658,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-aceh-2-sabang",
+    "name": "Perkiraan pemancar Aceh-2 (Sabang)",
+    "area": "aceh-2-sabang",
+    "lat": 5.89275,
+    "lon": 95.32258,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 666,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-aceh-4-sigli-bireuen",
+    "name": "Perkiraan pemancar Aceh-4 (Sigli-Bireuen)",
+    "area": "aceh-4-sigli-bireuen",
+    "lat": 5.38131,
+    "lon": 95.95793,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 650,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-aceh-7-lhokseumawe",
+    "name": "Perkiraan pemancar Aceh-7 (Lhokseumawe)",
+    "area": "aceh-7-lhokseumawe",
+    "lat": 5.17897,
+    "lon": 97.14805,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 658,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-sumatera-utara-2-pematangsiantar",
+    "name": "Perkiraan pemancar Sumatera Utara-2 (Pematangsiantar)",
+    "area": "sumatera-utara-2-pematangsiantar",
+    "lat": 3.00156,
+    "lon": 99.08326,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 658,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-sumatera-utara-5-sidikalang",
+    "name": "Perkiraan pemancar Sumatera Utara-5 (Sidikalang)",
+    "area": "sumatera-utara-5-sidikalang",
+    "lat": 2.74715,
+    "lon": 98.32008,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 666,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-sumatera-barat-1-padang",
+    "name": "Perkiraan pemancar Sumatera Barat-1 (Padang)",
+    "area": "sumatera-barat-1-padang",
+    "lat": -0.92476,
+    "lon": 100.36326,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 666,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-sumatera-barat-4-payakumbuh",
+    "name": "Perkiraan pemancar Sumatera Barat-4 (Payakumbuh)",
+    "area": "sumatera-barat-4-payakumbuh",
+    "lat": -0.22427,
+    "lon": 100.63194,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 658,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-sumatera-barat-7-painan",
+    "name": "Perkiraan pemancar Sumatera Barat-7 (Painan)",
+    "area": "sumatera-barat-7-painan",
+    "lat": -1.34727,
+    "lon": 100.57677,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 650,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-riau-3-bagansiapiapi",
+    "name": "Perkiraan pemancar Riau-3 (Bagansiapiapi)",
+    "area": "riau-3-bagansiapiapi",
+    "lat": 2.16134,
+    "lon": 100.80764,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 690,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-riau-5-siak",
+    "name": "Perkiraan pemancar Riau-5 (Siak)",
+    "area": "riau-5-siak",
+    "lat": 0.82753,
+    "lon": 101.84619,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 682,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-riau-7-tembilahan",
+    "name": "Perkiraan pemancar Riau-7 (Tembilahan)",
+    "area": "riau-7-tembilahan",
+    "lat": -0.32144,
+    "lon": 103.16175,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 666,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-jambi-1-jambi",
+    "name": "Perkiraan pemancar Jambi-1 (Jambi)",
+    "area": "jambi-1-jambi",
+    "lat": -1.707,
+    "lon": 102.714,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 658,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-jambi-2-kuala-tungkal",
+    "name": "Perkiraan pemancar Jambi-2 (Kuala Tungkal)",
+    "area": "jambi-2-kuala-tungkal",
+    "lat": -0.82651,
+    "lon": 103.46124,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 650,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-jambi-3-muara-bungo",
+    "name": "Perkiraan pemancar Jambi-3 (Muara Bungo)",
+    "area": "jambi-3-muara-bungo",
+    "lat": -1.51606,
+    "lon": 102.11876,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 666,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-jambi-5-bangko",
+    "name": "Perkiraan pemancar Jambi-5 (Bangko)",
+    "area": "jambi-5-bangko",
+    "lat": -2.09504,
+    "lon": 102.30521,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 650,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-sumatera-selatan-1-palembang",
+    "name": "Perkiraan pemancar Sumatera Selatan-1 (Palembang)",
+    "area": "sumatera-selatan-1-palembang",
+    "lat": -2.98882,
+    "lon": 104.75685,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 658,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-sumatera-selatan-2-sekayu",
+    "name": "Perkiraan pemancar Sumatera Selatan-2 (Sekayu)",
+    "area": "sumatera-selatan-2-sekayu",
+    "lat": -2.84514,
+    "lon": 103.85513,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 650,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-sumatera-selatan-3-lubuk-linggau",
+    "name": "Perkiraan pemancar Sumatera Selatan-3 (Lubuk Linggau)",
+    "area": "sumatera-selatan-3-lubuk-linggau",
+    "lat": -3.29181,
+    "lon": 102.8635,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 690,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-sumatera-selatan-4-prabumulih",
+    "name": "Perkiraan pemancar Sumatera Selatan-4 (Prabumulih)",
+    "area": "sumatera-selatan-4-prabumulih",
+    "lat": -3.43827,
+    "lon": 104.23102,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 666,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-sumatera-selatan-5-pagar-alam",
+    "name": "Perkiraan pemancar Sumatera Selatan-5 (Pagar Alam)",
+    "area": "sumatera-selatan-5-pagar-alam",
+    "lat": -4.02122,
+    "lon": 103.25168,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 658,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-sumatera-selatan-6-baturaja",
+    "name": "Perkiraan pemancar Sumatera Selatan-6 (Baturaja)",
+    "area": "sumatera-selatan-6-baturaja",
+    "lat": -4.1272,
+    "lon": 104.16181,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 690,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-bangka-belitung-1-pangkalpinang",
+    "name": "Perkiraan pemancar Bangka Belitung-1 (Pangkalpinang)",
+    "area": "bangka-belitung-1-pangkalpinang",
+    "lat": -2.12067,
+    "lon": 106.11346,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 666,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-bangka-belitung-2-sungai-liat",
+    "name": "Perkiraan pemancar Bangka Belitung-2 (Sungai Liat)",
+    "area": "bangka-belitung-2-sungai-liat",
+    "lat": -1.84773,
+    "lon": 106.1192,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 650,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-bangka-belitung-4-tanjung-pandan",
+    "name": "Perkiraan pemancar Bangka Belitung-4 (Tanjung Pandan)",
+    "area": "bangka-belitung-4-tanjung-pandan",
+    "lat": -2.74228,
+    "lon": 107.65448,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 650,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-bengkulu-1-bengkulu",
+    "name": "Perkiraan pemancar Bengkulu-1 (Bengkulu)",
+    "area": "bengkulu-1-bengkulu",
+    "lat": -4.00352,
+    "lon": 101.83935,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 650,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-lampung-1-bandar-lampung",
+    "name": "Perkiraan pemancar Lampung-1 (Bandar Lampung)",
+    "area": "lampung-1-bandar-lampung",
+    "lat": -5.42939,
+    "lon": 105.26262,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 666,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-lampung-3-kotabumi",
+    "name": "Perkiraan pemancar Lampung-3 (Kotabumi)",
+    "area": "lampung-3-kotabumi",
+    "lat": -4.82189,
+    "lon": 104.88133,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 650,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-banten-1-serang-raya",
+    "name": "Perkiraan pemancar Banten-1 (Serang Raya)",
+    "area": "banten-1-serang-raya",
+    "lat": -6.34821,
+    "lon": 107.13987,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 658,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-jawa-barat-2-garut",
+    "name": "Perkiraan pemancar Jawa Barat-2 (Garut)",
+    "area": "jawa-barat-2-garut",
+    "lat": -7.21628,
+    "lon": 107.90149,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 650,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-jawa-barat-6-purwakarta",
+    "name": "Perkiraan pemancar Jawa Barat-6 (Purwakarta)",
+    "area": "jawa-barat-6-purwakarta",
+    "lat": -6.55567,
+    "lon": 107.44213,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 666,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-jawa-barat-7-cianjur",
+    "name": "Perkiraan pemancar Jawa Barat-7 (Cianjur)",
+    "area": "jawa-barat-7-cianjur",
+    "lat": -7.05399,
+    "lon": 107.06924,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 690,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-jawa-barat-8-sumedang",
+    "name": "Perkiraan pemancar Jawa Barat-8 (Sumedang)",
+    "area": "jawa-barat-8-sumedang",
+    "lat": -6.85972,
+    "lon": 107.92071,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 650,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-jawa-tengah-2-blora",
+    "name": "Perkiraan pemancar Jawa Tengah-2 (Blora)",
+    "area": "jawa-tengah-2-blora",
+    "lat": -7.11061,
+    "lon": 111.42043,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 650,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-jawa-tengah-3-tegal",
+    "name": "Perkiraan pemancar Jawa Tengah-3 (Tegal)",
+    "area": "jawa-tengah-3-tegal",
+    "lat": -6.86745,
+    "lon": 109.13783,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 666,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-jawa-tengah-6-pati",
+    "name": "Perkiraan pemancar Jawa Tengah-6 (Pati)",
+    "area": "jawa-tengah-6-pati",
+    "lat": -6.75341,
+    "lon": 111.04,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 658,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-jawa-tengah-7-purwokerto",
+    "name": "Perkiraan pemancar Jawa Tengah-7 (Purwokerto)",
+    "area": "jawa-tengah-7-purwokerto",
+    "lat": -7.4279,
+    "lon": 109.24085,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 650,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-di-yogyakarta-yogyakarta",
+    "name": "Perkiraan pemancar DI Yogyakarta (Yogyakarta)",
+    "area": "di-yogyakarta-yogyakarta",
+    "lat": -7.79535,
+    "lon": 110.36728,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 658,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-jawa-timur-3-pamekasan",
+    "name": "Perkiraan pemancar Jawa Timur-3 (Pamekasan)",
+    "area": "jawa-timur-3-pamekasan",
+    "lat": -7.07081,
+    "lon": 113.50039,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 666,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-jawa-timur-4-jember",
+    "name": "Perkiraan pemancar Jawa Timur-4 (Jember)",
+    "area": "jawa-timur-4-jember",
+    "lat": -8.26332,
+    "lon": 113.62785,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 690,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-jawa-timur-5-situbondo",
+    "name": "Perkiraan pemancar Jawa Timur-5 (Situbondo)",
+    "area": "jawa-timur-5-situbondo",
+    "lat": -7.79861,
+    "lon": 114.26474,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 658,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-jawa-timur-8-bojonegoro",
+    "name": "Perkiraan pemancar Jawa Timur-8 (Bojonegoro)",
+    "area": "jawa-timur-8-bojonegoro",
+    "lat": -7.22787,
+    "lon": 111.81462,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 690,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-jawa-timur-9-madiun",
+    "name": "Perkiraan pemancar Jawa Timur-9 (Madiun)",
+    "area": "jawa-timur-9-madiun",
+    "lat": -7.62908,
+    "lon": 111.51688,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 650,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-jawa-timur-10-pacitan",
+    "name": "Perkiraan pemancar Jawa Timur-10 (Pacitan)",
+    "area": "jawa-timur-10-pacitan",
+    "lat": -8.10172,
+    "lon": 111.14467,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 666,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-nusa-tenggara-timur-2-soe",
+    "name": "Perkiraan pemancar Nusa Tenggara Timur-2 (Soe)",
+    "area": "nusa-tenggara-timur-2-soe",
+    "lat": -9.86932,
+    "lon": 124.30548,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 650,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-nusa-tenggara-timur-3-kefamenanu",
+    "name": "Perkiraan pemancar Nusa Tenggara Timur-3 (Kefamenanu)",
+    "area": "nusa-tenggara-timur-3-kefamenanu",
+    "lat": -9.44664,
+    "lon": 124.47804,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 658,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-nusa-tenggara-timur-4-atambua",
+    "name": "Perkiraan pemancar Nusa Tenggara Timur-4 (Atambua)",
+    "area": "nusa-tenggara-timur-4-atambua",
+    "lat": -9.10596,
+    "lon": 124.88806,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 666,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-kalimantan-barat-1-pontianak",
+    "name": "Perkiraan pemancar Kalimantan Barat-1 (Pontianak)",
+    "area": "kalimantan-barat-1-pontianak",
+    "lat": -0.02269,
+    "lon": 109.34475,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 682,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-kalimantan-barat-3-singkawang",
+    "name": "Perkiraan pemancar Kalimantan Barat-3 (Singkawang)",
+    "area": "kalimantan-barat-3-singkawang",
+    "lat": 0.90699,
+    "lon": 108.98897,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 642,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-kalimantan-barat-6-sintang",
+    "name": "Perkiraan pemancar Kalimantan Barat-6 (Sintang)",
+    "area": "kalimantan-barat-6-sintang",
+    "lat": 0.0636,
+    "lon": 111.48662,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 642,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-kalimantan-selatan-2-amuntai",
+    "name": "Perkiraan pemancar Kalimantan Selatan-2 (Amuntai)",
+    "area": "kalimantan-selatan-2-amuntai",
+    "lat": -2.41965,
+    "lon": 115.25393,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 658,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-kalimantan-selatan-3-kotabaru",
+    "name": "Perkiraan pemancar Kalimantan Selatan-3 (Kotabaru)",
+    "area": "kalimantan-selatan-3-kotabaru",
+    "lat": -2.79511,
+    "lon": 115.97125,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 666,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-kalimantan-utara-3-nunukan",
+    "name": "Perkiraan pemancar Kalimantan Utara-3 (Nunukan)",
+    "area": "kalimantan-utara-3-nunukan",
+    "lat": 3.90746,
+    "lon": 117.04235,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 642,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-sulawesi-utara-1-manado",
+    "name": "Perkiraan pemancar Sulawesi Utara-1 (Manado)",
+    "area": "sulawesi-utara-1-manado",
+    "lat": 1.49004,
+    "lon": 124.84077,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 658,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-sulawesi-utara-2-kotamobagu",
+    "name": "Perkiraan pemancar Sulawesi Utara-2 (Kotamobagu)",
+    "area": "sulawesi-utara-2-kotamobagu",
+    "lat": 0.73522,
+    "lon": 124.31541,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 666,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-sulawesi-utara-6-tahuna",
+    "name": "Perkiraan pemancar Sulawesi Utara-6 (Tahuna)",
+    "area": "sulawesi-utara-6-tahuna",
+    "lat": 3.61187,
+    "lon": 125.50076,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 650,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-gorontalo-1-gorontalo",
+    "name": "Perkiraan pemancar Gorontalo-1 (Gorontalo)",
+    "area": "gorontalo-1-gorontalo",
+    "lat": 0.71862,
+    "lon": 122.45559,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 650,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-sulawesi-tengah-1-palu",
+    "name": "Perkiraan pemancar Sulawesi Tengah-1 (Palu)",
+    "area": "sulawesi-tengah-1-palu",
+    "lat": -0.90515,
+    "lon": 119.87224,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 658,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-sulawesi-tengah-2-donggala",
+    "name": "Perkiraan pemancar Sulawesi Tengah-2 (Donggala)",
+    "area": "sulawesi-tengah-2-donggala",
+    "lat": -1.04782,
+    "lon": 119.67585,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 650,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-sulawesi-tengah-3-tolitoli",
+    "name": "Perkiraan pemancar Sulawesi Tengah-3 (Tolitoli)",
+    "area": "sulawesi-tengah-3-tolitoli",
+    "lat": 1.0392,
+    "lon": 120.8169,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 650,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-sulawesi-barat-1-mamuju",
+    "name": "Perkiraan pemancar Sulawesi Barat-1 (Mamuju)",
+    "area": "sulawesi-barat-1-mamuju",
+    "lat": -2.53942,
+    "lon": 119.38895,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 650,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-sulawesi-selatan-1-makassar",
+    "name": "Perkiraan pemancar Sulawesi Selatan-1 (Makassar)",
+    "area": "sulawesi-selatan-1-makassar",
+    "lat": -5.1343,
+    "lon": 119.41243,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 650,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-sulawesi-selatan-5-palopo",
+    "name": "Perkiraan pemancar Sulawesi Selatan-5 (Palopo)",
+    "area": "sulawesi-selatan-5-palopo",
+    "lat": -2.99963,
+    "lon": 120.19207,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 658,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-sulawesi-selatan-6-parepare",
+    "name": "Perkiraan pemancar Sulawesi Selatan-6 (Parepare)",
+    "area": "sulawesi-selatan-6-parepare",
+    "lat": -4.00571,
+    "lon": 119.62361,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 650,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-sulawesi-selatan-7-bone",
+    "name": "Perkiraan pemancar Sulawesi Selatan-7 (Bone)",
+    "area": "sulawesi-selatan-7-bone",
+    "lat": -4.6801,
+    "lon": 120.09467,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 666,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-sulawesi-tenggara-1-kendari",
+    "name": "Perkiraan pemancar Sulawesi Tenggara-1 (Kendari)",
+    "area": "sulawesi-tenggara-1-kendari",
+    "lat": -3.99181,
+    "lon": 122.51801,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 666,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-sulawesi-tenggara-2-baubau",
+    "name": "Perkiraan pemancar Sulawesi Tenggara-2 (Baubau)",
+    "area": "sulawesi-tenggara-2-baubau",
+    "lat": -5.46203,
+    "lon": 122.60577,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 690,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-maluku-1-ambon",
+    "name": "Perkiraan pemancar Maluku-1 (Ambon)",
+    "area": "maluku-1-ambon",
+    "lat": -3.69594,
+    "lon": 128.17879,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 666,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-maluku-2-masohi",
+    "name": "Perkiraan pemancar Maluku-2 (Masohi)",
+    "area": "maluku-2-masohi",
+    "lat": -3.30627,
+    "lon": 128.95302,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 658,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-maluku-6-tual",
+    "name": "Perkiraan pemancar Maluku-6 (Tual)",
+    "area": "maluku-6-tual",
+    "lat": -5.54114,
+    "lon": 132.71878,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 666,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-maluku-utara-1-ternate",
+    "name": "Perkiraan pemancar Maluku Utara-1 (Ternate)",
+    "area": "maluku-utara-1-ternate",
+    "lat": 0.7852,
+    "lon": 127.38323,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 650,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-papua-1-jayapura",
+    "name": "Perkiraan pemancar Papua-1 (Jayapura)",
+    "area": "papua-1-jayapura",
+    "lat": -2.53875,
+    "lon": 140.70374,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 650,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-papua-4-merauke",
+    "name": "Perkiraan pemancar Papua-4 (Merauke)",
+    "area": "papua-4-merauke",
+    "lat": -8.49028,
+    "lon": 140.39558,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 650,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-papua-7-wamena",
+    "name": "Perkiraan pemancar Papua-7 (Wamena)",
+    "area": "papua-7-wamena",
+    "lat": -4.09437,
+    "lon": 138.94666,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 650,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-papua-9-timika",
+    "name": "Perkiraan pemancar Papua-9 (Timika)",
+    "area": "papua-9-timika",
+    "lat": -4.54811,
+    "lon": 136.88988,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 666,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-papua-11-nabire",
+    "name": "Perkiraan pemancar Papua-11 (Nabire)",
+    "area": "papua-11-nabire",
+    "lat": -3.36029,
+    "lon": 135.50237,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 650,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-papua-13-biak",
+    "name": "Perkiraan pemancar Papua-13 (Biak)",
+    "area": "papua-13-biak",
+    "lat": -1.18361,
+    "lon": 136.08163,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 658,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  },
+  {
+    "id": "area-papua-barat-1-sorong",
+    "name": "Perkiraan pemancar Papua Barat-1 (Sorong)",
+    "area": "papua-barat-1-sorong",
+    "lat": -0.86341,
+    "lon": 131.25448,
+    "height_m": 100,
+    "erp_kw": 5,
+    "freq_mhz": 658,
+    "confidence": {
+      "location": "area-center",
+      "height": "estimated",
+      "erp": "estimated"
+    },
+    "source": ["https://nominatim.openstreetmap.org/"]
+  }
+]

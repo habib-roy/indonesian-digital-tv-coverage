@@ -1,0 +1,17 @@
+Data in this directory (transmitters.json, service-areas.json) is licensed under
+Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).
+https://creativecommons.org/licenses/by-sa/4.0/
+
+It is a derivative of:
+  - Wikipedia bahasa Indonesia, "Televisi digital di Indonesia" (CC BY-SA 4.0)
+    https://id.wikipedia.org/wiki/Televisi_digital_di_Indonesia
+    → service areas, channel assignments. ShareAlike requires this data to stay CC BY-SA.
+  - OpenStreetMap contributors (ODbL 1.0) — tower locations
+    https://www.openstreetmap.org/copyright
+    Tower coordinates taken from OSM remain available under the ODbL; see each
+    record's "source" field. © OpenStreetMap contributors.
+
+Attribution when reusing: "Data: Cek Sinyal TV Digital contributors, Wikipedia (CC BY-SA 4.0),
+© OpenStreetMap contributors (ODbL)".
+
+The application code is MIT — see ../LICENSE.
