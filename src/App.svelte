@@ -189,6 +189,7 @@
     <li>AWS Terrain Tiles: ketinggian tanah</li>
     <li>Microsoft Planetary Computer: tutupan lahan (satu titik di rumah)</li>
     <li>Nominatim (OpenStreetMap): hanya jika Anda memakai kolom pencarian</li>
+    <li>Google Analytics: statistik kunjungan anonim (halaman, perangkat, perkiraan kota dari IP), tanpa lokasi rumah</li>
   </ul>
   <p class="muted">Seperti semua situs, layanan tersebut bisa melihat alamat IP dan area tile yang diminta.</p>
 </Modal>
