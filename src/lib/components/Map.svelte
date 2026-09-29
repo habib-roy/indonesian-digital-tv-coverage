@@ -83,7 +83,9 @@
   }
 
   onMount(() => {
-    void init();
+    // Build the map when the browser is idle so the UI shell stays responsive on first load.
+    const idle = window.requestIdleCallback ?? ((cb: () => void) => setTimeout(cb, 1));
+    idle(() => void init());
     return () => map?.remove();
   });
 
@@ -119,7 +121,10 @@
         source: "dem",
         paint: { "hillshade-exaggeration": 0.35, "hillshade-shadow-color": "#000" },
       });
-      if (app.terrain3d) m.setTerrain({ source: "dem", exaggeration: MAP.terrainExaggeration });
+      // 3D terrain is the heaviest part; on first load wait until the 2D map has rendered.
+      const terrain = () => app.terrain3d && m.setTerrain({ source: "dem", exaggeration: MAP.terrainExaggeration });
+      if (first) m.once("idle", terrain);
+      else terrain();
 
       m.addSource("tx", {
         type: "geojson",
