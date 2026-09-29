@@ -77,10 +77,10 @@ Data ada di [`data/transmitters.json`](data/transmitters.json) (skema: `Transmit
 
 ## Branch
 
-| Branch | Fungsi                                             | Deploy                               |
-| ------ | -------------------------------------------------- | ------------------------------------ |
-| `dev`  | **Target semua PR.** Integrasi & preview           | GitHub Pages (otomatis)              |
-| `main` | Rilis stabil, hanya di-merge maintainer dari `dev` | Server produksi (self-hosted runner) |
+| Branch | Fungsi                                             | Deploy                                       |
+| ------ | -------------------------------------------------- | -------------------------------------------- |
+| `dev`  | **Target semua PR.** Integrasi & preview           | GitHub Pages (otomatis)                      |
+| `main` | Rilis stabil, hanya di-merge maintainer dari `dev` | Cloudflare Workers (build di GitHub Actions) |
 
 ## Hacktoberfest
 

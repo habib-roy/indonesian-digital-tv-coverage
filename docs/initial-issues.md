@@ -1,6 +1,43 @@
 # Issue awal
 
-Daftar issue untuk dibuka setelah repo publik. Salin judul + isi ke GitHub. Label yang dipakai: `good first issue`, `data`, `enhancement`, `help wanted`, `model`.
+Daftar issue untuk dibuka setelah repo publik. Label yang dipakai: `good first issue`, `data`, `enhancement`, `help wanted`, `model`, `hacktoberfest`.
+
+## Cara membuka
+
+**Sekali saja, siapkan label:** buka **Issues → Labels → New label**, lalu buat label yang belum ada. `good first issue`, `help wanted`, dan `enhancement` sudah ada bawaan GitHub.
+
+**Lewat web (issue 2–4, masing-masing satu kali):**
+
+1. **Issues → New issue → Open a blank issue.**
+2. Judul = teks judul bagian (misal "Terjemahan bahasa Inggris").
+3. Isi = teks di dalam blok kutipan (`>`), tanpa tanda `>` di awal baris.
+4. Di panel kanan, pilih label yang tertulis di judul bagian.
+5. **Create.**
+
+**Lewat terminal (38 issue provinsi):** menulis manual 38 kali rawan salah. Pasang [GitHub CLI](https://cli.github.com), jalankan `gh auth login`, lalu dari root repo:
+
+```sh
+body='Banyak pemancar di PROV masih memakai lokasi **perkiraan** (titik oranye di peta), dan tinggi/daya pancarnya juga perkiraan.
+
+**Tugas**
+
+- [ ] Cari lokasi menara pemancar TV digital tiap wilayah layanan di PROV (lihat `data/service-areas.json`).
+- [ ] Tambahkan/perbaiki menara di OpenStreetMap: `man_made=mast` (atau `tower`) + `communication:television=yes` + `name`.
+- [ ] Atau langsung edit `data/transmitters.json`: `lat`, `lon`, `height_m`, `erp_kw`, `confidence`, dan **`source` wajib**.
+- [ ] `pnpm validate-data` lulus.
+
+Panduan: https://github.com/habib-roy/indonesian-digital-tv-coverage/blob/dev/CONTRIBUTING.md#menambah--memperbaiki-pemancar
+PR ke branch `dev`.'
+
+sed -n 's/^Provinsi: //p' docs/initial-issues.md | sed 's/ · /\n/g' | while read -r p; do
+  gh issue create --title "Data pemancar: $p" --label "good first issue,data,hacktoberfest" --body "${body//PROV/$p}"
+  sleep 2 # hindari rate limit pembuatan konten GitHub
+done
+```
+
+Coba dulu dengan satu provinsi (tambahkan `| head -1` sebelum `| while`), cek hasilnya di GitHub, baru jalankan semua.
+
+**Setelah dibuka:** sematkan (Pin) satu issue ringkasan atau issue terjemahan agar terlihat di atas daftar issue.
 
 ---
 
@@ -17,7 +54,7 @@ Satu issue per provinsi. Judul: **Data pemancar: {Provinsi}**
 > - [ ] Atau langsung edit `data/transmitters.json`: `lat`, `lon`, `height_m`, `erp_kw`, `confidence`, dan **`source` wajib** (tautan OSM, dokumen Komdigi, foto, dsb.).
 > - [ ] `pnpm validate-data` lulus.
 >
-> Panduan: [CONTRIBUTING.md → Menambah / memperbaiki pemancar](../CONTRIBUTING.md#menambah--memperbaiki-pemancar)
+> Panduan: [CONTRIBUTING.md → Menambah / memperbaiki pemancar](https://github.com/habib-roy/indonesian-digital-tv-coverage/blob/dev/CONTRIBUTING.md#menambah--memperbaiki-pemancar)
 
 Provinsi: Aceh · Sumatera Utara · Sumatera Barat · Riau · Kepulauan Riau · Jambi · Sumatera Selatan · Kepulauan Bangka Belitung · Bengkulu · Lampung · DKI Jakarta · Banten · Jawa Barat · Jawa Tengah · DI Yogyakarta · Jawa Timur · Bali · Nusa Tenggara Barat · Nusa Tenggara Timur · Kalimantan Barat · Kalimantan Tengah · Kalimantan Selatan · Kalimantan Timur · Kalimantan Utara · Sulawesi Utara · Gorontalo · Sulawesi Tengah · Sulawesi Barat · Sulawesi Selatan · Sulawesi Tenggara · Maluku · Maluku Utara · Papua · Papua Barat · Papua Barat Daya · Papua Tengah · Papua Pegunungan · Papua Selatan
 

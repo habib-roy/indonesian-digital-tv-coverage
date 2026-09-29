@@ -1,11 +1,15 @@
 name: Deploy (production)
-# Production deploy on the maintainer's self-hosted runner.
+# Build on a GitHub-hosted runner, then upload dist/ as a static-assets-only Cloudflare Worker.
 #
-# SECURITY: this repo is public and accepts PRs from forks (Hacktoberfest).
-# A self-hosted runner must NEVER run untrusted code, so this workflow:
-#   - triggers only on push to main (code already reviewed & merged), never on pull_request*
-#   - refuses to run in forks
-#   - uses a dedicated runner label so no other workflow lands on this machine
+# SECURITY: the token lives in the `production` environment, which only accepts `main`.
+# Fork PRs never receive secrets, and this workflow never runs on pull_request*.
+#
+# Setup:
+#   Cloudflare: a Worker named CLOUDFLARE_PROJECT_NAME with workers.dev enabled.
+#               API token with only "Account → Workers Scripts → Edit".
+#   GitHub (Settings → Environments → production):
+#     secret:    CLOUDFLARE_API_TOKEN
+#     variables: CLOUDFLARE_ACCOUNT_ID, CLOUDFLARE_PROJECT_NAME, PRODUCTION_URL (shown on the deployment)
 on:
   push:
     branches: [main]
@@ -18,24 +22,29 @@ concurrency:
 jobs:
   deploy:
     if: github.repository == 'habib-roy/indonesian-digital-tv-coverage' && github.ref == 'refs/heads/main'
-    runs-on: [self-hosted, tv-digital-prod]
-    environment: production
+    runs-on: ubuntu-latest
+    environment:
+      name: production
+      url: ${{ vars.PRODUCTION_URL }}
     steps:
       - uses: actions/checkout@v7
       - uses: pnpm/action-setup@v6
       - uses: actions/setup-node@v7
         with:
           node-version-file: .nvmrc
+          cache: pnpm
       - run: pnpm install --frozen-lockfile
       - run: pnpm check
       - run: pnpm build
-      # ponytail: plain directory sync to a web root on the runner host.
-      # Set repo variable DEPLOY_DIR (Settings → Secrets and variables → Actions → Variables),
-      # e.g. /var/www/tv-digital. Swap for rsync/ssh/docker when deploying to another machine.
-      - name: Publish dist/
+      - name: Upload dist/ to Cloudflare Workers
         env:
-          DEPLOY_DIR: ${{ vars.DEPLOY_DIR }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+          PROJECT: ${{ vars.CLOUDFLARE_PROJECT_NAME }}
         run: |
-          test -n "$DEPLOY_DIR" || { echo "::error::Repo variable DEPLOY_DIR is not set"; exit 1; }
-          mkdir -p "$DEPLOY_DIR"
-          rsync -a --delete dist/ "$DEPLOY_DIR/"
+          for v in CLOUDFLARE_API_TOKEN CLOUDFLARE_ACCOUNT_ID PROJECT; do
+            test -n "${!v}" || { echo "::error::$v is not set in the production environment"; exit 1; }
+          done
+          # ponytail: wrangler fetched on demand (major pinned), not a devDependency; pin exact if a release breaks.
+          # No wrangler config file needed: assets-only Worker, no server code. Replaces the Worker's current script.
+          pnpm dlx wrangler@4 deploy --name "$PROJECT" --assets dist --compatibility-date 2026-09-01
