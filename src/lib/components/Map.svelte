@@ -3,11 +3,14 @@
   Reads/writes global state in state.svelte.ts; all tunables come from src/config.ts.
 -->
 <script lang="ts">
-  import * as maplibregl from "maplibre-gl";
+  import type * as ML from "maplibre-gl";
   import type { GeoJSONSource, ImageSource } from "maplibre-gl";
   // maplibre v6 resolves its worker relative to its own module URL, which breaks after bundling.
   import workerUrl from "maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url";
   import { onMount } from "svelte";
+  // MapLibre is ~1 MB; loaded in onMount so the UI shell paints first (was the main Lighthouse cost).
+  // Every other use below runs only after `map` exists, i.e. after this is assigned.
+  let maplibregl: typeof ML;
   import {
     app,
     toggleTheme,
@@ -32,14 +35,14 @@
   } from "../../config.ts";
 
   let el: HTMLDivElement;
-  let map: maplibregl.Map | undefined = $state();
+  let map: ML.Map | undefined = $state();
   let overlayVersion = $state(0); // bumps after (re)adding overlay layers on each style load
-  let homeMarker: maplibregl.Marker | undefined;
-  let hoverMarker: maplibregl.Marker | undefined;
+  let homeMarker: ML.Marker | undefined;
+  let hoverMarker: ML.Marker | undefined;
   const heatCanvas = document.createElement("canvas");
 
   /** Build a MapLibre style for a basemap from config.ts. */
-  function styleFor(id: BasemapId, theme: Theme): string | maplibregl.StyleSpecification {
+  function styleFor(id: BasemapId, theme: Theme): string | ML.StyleSpecification {
     const b: BasemapDef = BASEMAPS[id];
     if (b.kind === "style") return b.url(theme);
     return {
@@ -52,7 +55,6 @@
   let basemap: BasemapId = $state(MAP.defaultBasemap);
   let layersOpen = $state(false);
   let ctrls: HTMLDivElement;
-  maplibregl.setWorkerUrl(workerUrl);
 
   /** margin (dB) → RGBA: red < 0, amber 0–10, green ≥ 10 */
   function color(m: number): [number, number, number, number] {
@@ -81,6 +83,13 @@
   }
 
   onMount(() => {
+    void init();
+    return () => map?.remove();
+  });
+
+  async function init() {
+    maplibregl = await import("maplibre-gl");
+    maplibregl.setWorkerUrl(workerUrl);
     map = new maplibregl.Map({
       container: el,
       style: styleFor(basemap, app.theme),
@@ -187,9 +196,7 @@
       const f = e.features?.[0];
       if (f) new maplibregl.Popup({ closeButton: false }).setLngLat(e.lngLat).setText(String(f.properties.name)).addTo(map!);
     });
-
-    return () => map?.remove();
-  });
+  }
 
   // Home marker
   $effect(() => {
