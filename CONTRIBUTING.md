@@ -75,13 +75,28 @@ Data ada di [`data/transmitters.json`](data/transmitters.json) (skema: `Transmit
 - Jalankan `pnpm validate-data`.
 - Lebih baik lagi: perbaiki di OpenStreetMap, lalu `node scripts/build-data.ts` untuk membangun ulang.
 
+## Branch
+
+| Branch | Fungsi                                             | Deploy                               |
+| ------ | -------------------------------------------------- | ------------------------------------ |
+| `dev`  | **Target semua PR.** Integrasi & preview           | GitHub Pages (otomatis)              |
+| `main` | Rilis stabil, hanya di-merge maintainer dari `dev` | Server produksi (self-hosted runner) |
+
+## Hacktoberfest
+
+Proyek ini ikut [Hacktoberfest](https://hacktoberfest.com). PR dihitung jika di-merge, diberi label `hacktoberfest-accepted`, atau di-approve.
+
+- Buka PR ke **`dev`**. Issue `good first issue` dan data pemancar per provinsi cocok untuk mulai.
+- Satu PR = satu perubahan bermakna. PR spam/trivial (ubah spasi, typo massal tanpa konteks, data tanpa `source`) ditutup dengan label `spam` atau `invalid` dan tidak dihitung.
+- CI wajib hijau. Workflow di PR dari fork berjalan di runner GitHub, tanpa akses secret.
+
 ## Alur PR
 
-1. Fork → branch dari `main` (`feat/heatmap-legend`, `data/jawa-tengah`).
+1. Fork → branch dari `dev` (`feat/heatmap-legend`, `data/jawa-tengah`).
 2. Ubah kode; `pnpm check` bersih.
 3. Buka PR dan isi template (ringkasan, jenis, checklist, screenshot mobile untuk perubahan UI).
 4. Review oleh [CODEOWNERS](.github/CODEOWNERS). Perubahan model (`itm.ts`, `propagation.ts`) dan `data/` direview lebih ketat.
-5. Squash merge.
+5. Squash merge ke `dev`. Maintainer menggabungkan `dev` → `main` untuk rilis.
 
 ## Lisensi kontribusi
 

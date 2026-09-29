@@ -1,3 +1,5 @@
+<!-- PR ditujukan ke branch `dev`, bukan `main`. -->
+
 ## Ringkasan
 
 <!-- Apa yang diubah dan kenapa. Tautkan issue: Closes #123 -->

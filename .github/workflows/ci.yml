@@ -1,8 +1,8 @@
 name: CI
 on:
   push:
-    branches: [main]
-  pull_request:
+    branches: [main, dev]
+  pull_request: # forks included — keep on GitHub-hosted runners, never self-hosted
 permissions:
   contents: read
 jobs:
