@@ -10,6 +10,11 @@ updates:
       maplibre:
         patterns: ["maplibre-gl"]
     open-pull-requests-limit: 5
+    ignore:
+      # typescript-eslint does not support TS 7 yet (lint crashes).
+      # Remove when https://github.com/typescript-eslint/typescript-eslint/issues/10940 ships.
+      - dependency-name: typescript
+        update-types: ["version-update:semver-major"]
   - package-ecosystem: github-actions
     directory: /
     schedule:
