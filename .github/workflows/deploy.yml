@@ -5,7 +5,7 @@ name: Deploy (production)
 # Fork PRs never receive secrets, and this workflow never runs on pull_request*.
 #
 # Setup:
-#   Cloudflare: a Worker named CLOUDFLARE_PROJECT_NAME with workers.dev enabled.
+#   Cloudflare: a Worker named CLOUDFLARE_PROJECT_NAME (custom domain set in the Cloudflare dashboard).
 #               API token with only "Account → Workers Scripts → Edit".
 #   GitHub (Settings → Environments → production):
 #     secret:    CLOUDFLARE_API_TOKEN
