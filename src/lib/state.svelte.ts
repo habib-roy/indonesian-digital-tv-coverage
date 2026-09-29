@@ -74,6 +74,28 @@ export function toggleTheme() {
   localStorage.setItem("theme", app.theme);
 }
 
+/** Set home from the browser's high-accuracy GPS and analyse. Resolves to an error message, or "" on success. */
+export function locateHome(): Promise<string> {
+  if (!("geolocation" in navigator)) return Promise.resolve("Browser tidak mendukung lokasi. Cari alamat atau ketuk peta.");
+  return new Promise((resolve) =>
+    navigator.geolocation.getCurrentPosition(
+      (p) => {
+        app.home = { lat: p.coords.latitude, lon: p.coords.longitude };
+        app.homeLabel = `Lokasi saya (±${Math.round(p.coords.accuracy)} m)`;
+        void analyse();
+        resolve("");
+      },
+      (err) =>
+        resolve(
+          err.code === 1
+            ? "Izin lokasi ditolak. Cari alamat atau ketuk peta."
+            : "Lokasi tidak didapat. Cari alamat atau ketuk peta.",
+        ),
+      { enableHighAccuracy: true, timeout: UI.geolocationTimeoutMs, maximumAge: 0 },
+    ),
+  );
+}
+
 export const current = () => app.analysis?.results[app.selected];
 export const currentResult = () => current()?.byHeight[app.height - 1];
 

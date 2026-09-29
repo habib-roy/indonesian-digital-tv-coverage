@@ -15,6 +15,10 @@
   let sheet: HTMLElement;
 
   const visible = $derived(live ?? SNAPS[snap]);
+  // Never taller than its content (+ handle), so short steps don't leave empty space.
+  let contentH = $state(0);
+  let vh = $state(innerHeight);
+  const fitVis = $derived(Math.max(SNAPS[0], Math.min(visible, ((contentH + 40) / vh) * 100)));
 
   function down(e: PointerEvent) {
     drag = { y0: e.clientY, h0: SNAPS[snap] };
@@ -41,7 +45,9 @@
   };
 </script>
 
-<aside class="sheet glass" class:dragging={live !== null} style="--vis:{visible}dvh" aria-label="Hasil analisis">
+<svelte:window bind:innerHeight={vh} />
+
+<aside class="sheet glass" class:dragging={live !== null} style="--vis:{live ?? fitVis}dvh" aria-label="Hasil analisis">
   <button
     id="sheet-handle"
     class="handle"
@@ -54,7 +60,7 @@
     aria-label="Tarik untuk memperbesar atau memperkecil panel"><span></span></button
   >
   <div class="content" bind:this={sheet}>
-    {@render children()}
+    <div class="inner" bind:clientHeight={contentH}>{@render children()}</div>
   </div>
 </aside>
 
@@ -64,13 +70,13 @@
     left: 0;
     right: 0;
     bottom: 0;
-    height: 95dvh;
-    transform: translateY(calc(95dvh - var(--vis)));
+    height: var(--vis);
     border-radius: 24px 24px 0 0;
     border-bottom: 0;
     display: flex;
     flex-direction: column;
-    transition: transform 0.45s var(--ease);
+    /* height (not transform) so the scroll area always ends at the screen edge: last step fully reachable */
+    transition: height 0.4s var(--ease);
     z-index: 5;
     padding-bottom: env(safe-area-inset-bottom);
   }
@@ -79,7 +85,7 @@
   }
   .handle {
     flex: none;
-    height: 32px;
+    height: 28px;
     border: 0;
     background: transparent;
     display: grid;
@@ -95,12 +101,25 @@
   }
   .content {
     flex: 1;
+    min-height: 0;
     overflow-y: auto;
     overscroll-behavior: contain;
-    padding: 0 16px 24px;
+    padding: 0 14px;
+    /* thin, track-less scrollbar; thumb brightens on hover (native CSS, Chrome 121+/Firefox/Safari 18.2+) */
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+    scrollbar-gutter: stable;
+    transition: scrollbar-color 0.3s;
+  }
+  .content:hover,
+  .content:focus-within {
+    scrollbar-color: hsl(200 15% 55% / 0.45) transparent;
+  }
+  .inner {
     display: grid;
     align-content: start;
-    gap: 14px;
+    gap: 10px;
+    padding-bottom: 12px;
   }
   @media (min-width: 900px) {
     .sheet {
@@ -118,7 +137,10 @@
       display: none;
     }
     .content {
-      padding-top: 16px;
+      padding: 16px 16px 0;
+    }
+    .inner {
+      gap: 14px;
     }
   }
 </style>

@@ -12,6 +12,7 @@
   import HeightSlider from "./lib/components/HeightSlider.svelte";
   import Advice from "./lib/components/Advice.svelte";
   import Modal from "./lib/components/Modal.svelte";
+  import Welcome from "./lib/components/Welcome.svelte";
   import { app } from "./lib/state.svelte.ts";
   import { markdown } from "./lib/core/markdown.ts";
   import metode from "../docs/metode.md?raw";
@@ -82,8 +83,6 @@
 
     <!-- Print shows every result section; screen shows only the current step. -->
     <section class="step no-print" class:show={step === 1}>
-      <h2 class="title">Di mana rumah Anda?</h2>
-      <p class="muted">Cari alamat, pakai lokasi Anda, atau <strong>ketuk peta</strong> tepat di atap rumah. Pin bisa digeser.</p>
       <SearchBox onfound={(lat, lon) => mapView.flyTo(lat, lon)} />
       {#if app.home && ready}
         <button id="step1-next" class="btn primary wide" onclick={() => go(3)}>Lihat hasil untuk lokasi ini</button>
@@ -94,9 +93,6 @@
       <section class="step show">
         <h2 class="title">Menganalisis jalur sinyal…</h2>
         <LoadingStepper />
-        {#if busy}
-          <div class="skeleton" style="height:120px"></div>
-        {/if}
       </section>
     {/if}
 
@@ -146,11 +142,15 @@
 
     <footer>
       <button id="open-methods" class="link" onclick={() => methods.open()}>Metode</button>
+      <span aria-hidden="true">·</span>
       <button id="open-contribute" class="link" onclick={() => contrib.open()}>Kontribusi</button>
+      <span aria-hidden="true">·</span>
       <button id="open-privacy" class="link" onclick={() => privacy.open()}>Privasi</button>
     </footer>
   </BottomSheet>
 </main>
+
+<Welcome onlocate={() => mapView.locate()} />
 
 <Modal bind:this={methods} id="methods" title="Metode perhitungan">
   <!-- eslint-disable-next-line svelte/no-at-html-tags -- own docs, escaped by markdown() -->
@@ -286,7 +286,7 @@
   }
   .step {
     display: none;
-    gap: 12px;
+    gap: 10px;
   }
   .step.show {
     display: grid;
@@ -308,14 +308,18 @@
   footer {
     display: flex;
     flex-wrap: wrap;
-    gap: 4px 16px;
-    padding-top: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 0 10px;
+    padding-top: 4px;
     border-top: 1px solid var(--line);
+    color: var(--muted);
   }
   .link {
     background: none;
     border: 0;
-    padding: 10px 0;
+    padding: 10px 2px;
+    min-height: 44px;
     color: var(--teal);
     font-size: 0.82rem;
   }

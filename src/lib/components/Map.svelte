@@ -20,6 +20,7 @@
     analyse,
     setHeatmapBbox,
     scheduleHeatmap,
+    locateHome,
   } from "../state.svelte.ts";
   import { interpolate } from "../core/geo.ts";
   import {
@@ -65,6 +66,17 @@
     return [60, 210, 130, 150];
   }
 
+  let locating = $state(false);
+  let locMsg = $state("");
+  /** GPS → home pin → analysis. Used by the map button and the first-visit prompt. */
+  export async function locate() {
+    locating = true;
+    locMsg = await locateHome();
+    locating = false;
+    if (locMsg) setTimeout(() => (locMsg = ""), UI.messageTimeoutMs);
+    else if (app.home) flyTo(app.home.lat, app.home.lon);
+  }
+
   export function flyTo(lat: number, lon: number) {
     map?.flyTo({ center: [lon, lat], zoom: MAP.flyToZoom, pitch: 0, bearing: 0, duration: 1600 });
   }
@@ -95,8 +107,14 @@
     map = new maplibregl.Map({
       container: el,
       style: styleFor(basemap, app.theme),
-      center: MAP.center,
-      zoom: MAP.zoom,
+      // Fit all of Indonesia (Sabang–Merauke) on any screen; a fixed zoom shows only Kalimantan on phones.
+      bounds: MAP.bounds,
+      fitBoundsOptions: {
+        padding:
+          innerWidth >= UI.desktopMinWidth
+            ? { top: 20, bottom: 20, left: UI.sidebarWidth + 40, right: 60 }
+            : { top: 60, bottom: 170, left: 10, right: 50 }, // step-1 sheet is ~150 px tall
+      },
       maxPitch: 80,
       attributionControl: { compact: true },
     });
@@ -424,7 +442,28 @@
         >
       {/if}
     </button>
+    <button
+      id="locate-home"
+      type="button"
+      title={app.home ? "Ganti lokasi rumah ke posisi saya" : "Gunakan geolocation"}
+      aria-label={app.home ? "Ganti lokasi rumah ke posisi saya" : "Gunakan geolocation"}
+      disabled={locating}
+      onclick={locate}
+    >
+      {#if locating}<i class="busy" aria-hidden="true"></i>{/if}
+      <svg
+        width="18"
+        height="18"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2.2"
+        stroke-linecap="round"
+        aria-hidden="true"><circle cx="12" cy="12" r="4" /><path d="M12 2v3M12 19v3M2 12h3M19 12h3" /></svg
+      >
+    </button>
   </div>
+  {#if locMsg}<p class="loc-msg glass" role="status">{locMsg}</p>{/if}
   {#if layersOpen}
     <div id="layers-panel" class="panel glass">
       <fieldset>
@@ -466,6 +505,17 @@
     border-radius: 50%;
     background: var(--teal);
     animation: pulse 1s infinite;
+  }
+  .loc-msg {
+    position: absolute;
+    right: calc(100% + 8px);
+    bottom: 0;
+    width: 220px;
+    margin: 0;
+    padding: 8px 10px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    color: var(--amber);
   }
   .panel {
     position: absolute;
