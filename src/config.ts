@@ -104,9 +104,8 @@ export const HEATMAP = {
 // ─── Map & UI ────────────────────────────────────────────────────────────────────────────────
 
 export const MAP = {
-  /** Initial view: Indonesia. */
-  center: [118, -2.5] as [number, number],
-  zoom: 4.2,
+  /** Initial view: all of Indonesia (Sabang–Merauke, Miangas–Rote), fitted to the screen. [W, S, E, N] */
+  bounds: [95, -11, 141, 6] as [number, number, number, number],
   defaultBasemap: "satellite" as BasemapId,
   /** Terrain vertical exaggeration — visual only, analysis always uses true heights. */
   terrainExaggeration: 2,

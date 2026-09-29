@@ -2,6 +2,8 @@
 
 Web GIS untuk memperkirakan kuat sinyal TV digital (DVB-T2) di atap rumah di Indonesia, berdasarkan lokasi rumah, tinggi antena, dan kontur tanah. Semua perhitungan berjalan di browser; tidak ada server.
 
+**Coba:** [tv-digital.hanatek.id](https://tv-digital.hanatek.id) · Preview branch `dev`: [habib-roy.github.io/indonesian-digital-tv-coverage](https://habib-roy.github.io/indonesian-digital-tv-coverage/)
+
 ![Tampilan aplikasi di ponsel: peta 3D, jalur sinyal, dan hasil analisis](docs/screenshot.png)
 
 > Hasilnya **estimasi model**, bukan hasil ukur. Lihat [docs/metode.md](docs/metode.md) untuk metode, sumber data, dan keterbatasan.

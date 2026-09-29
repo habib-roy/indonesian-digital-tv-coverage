@@ -3,7 +3,7 @@
 -->
 <script lang="ts">
   import { NOMINATIM, UI } from "../../config.ts";
-  import { app, analyse } from "../state.svelte.ts";
+  import { app, analyse, locateHome } from "../state.svelte.ts";
 
   let { onfound }: { onfound: (lat: number, lon: number) => void } = $props();
 
@@ -63,27 +63,12 @@
   }
 
   let locating = $state(false);
-  function locate() {
+  async function locate() {
     msg = "";
     locating = true;
-    navigator.geolocation.getCurrentPosition(
-      (p) => {
-        locating = false;
-        const { latitude: lat, longitude: lon } = p.coords;
-        app.home = { lat, lon };
-        app.homeLabel = "Lokasi saya";
-        onfound(lat, lon);
-        void analyse();
-      },
-      (err) => {
-        locating = false;
-        msg =
-          err.code === 1
-            ? "Izin lokasi ditolak. Cari alamat atau ketuk peta."
-            : "Lokasi tidak didapat. Cari alamat atau ketuk peta.";
-      },
-      { enableHighAccuracy: true, timeout: UI.geolocationTimeoutMs },
-    );
+    msg = await locateHome();
+    locating = false;
+    if (!msg && app.home) onfound(app.home.lat, app.home.lon);
   }
 </script>
 
@@ -111,7 +96,7 @@
         >
       {/if}
     </button>
-    <button id="locate-me" class="btn icon" type="button" onclick={locate} disabled={locating} aria-label="Gunakan lokasi saya">
+    <button id="locate-me" class="btn icon" type="button" onclick={locate} disabled={locating} aria-label="Gunakan geolocation">
       {#if locating}<span class="spin"></span>{:else}
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"
           ><circle cx="12" cy="12" r="4" /><path d="M12 2v3M12 19v3M2 12h3M19 12h3" /></svg

@@ -3,7 +3,7 @@
  * Hosted as COGs on Microsoft Planetary Computer; the AWS copy has no CORS.
  * Reads a single pixel through HTTP range requests (geotiff.js).
  */
-import { fromUrl } from "geotiff";
+// geotiff (~200 KB with codecs) is loaded on first use, not at page load.
 import type { LatLon } from "./geo.ts";
 import { WORLDCOVER } from "../../config.ts";
 
@@ -29,6 +29,7 @@ export function worldCoverTile(p: LatLon): string {
 
 export async function landCoverAt(p: LatLon): Promise<number> {
   const url = `${WORLDCOVER.blobUrl}/ESA_WorldCover_10m_2021_v200_${worldCoverTile(p)}_Map.tif?${await sasToken()}`;
+  const { fromUrl } = await import("geotiff");
   const tiff = await fromUrl(url, { allowFullFile: false });
   const img = await tiff.getImage();
   const [x0, , , y1] = img.getBoundingBox();

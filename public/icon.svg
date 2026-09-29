@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- App icon: transmitter mast with signal waves. Full-bleed background so it also works as a maskable icon. -->
+  <rect width="512" height="512" fill="#0e7c72"/>
+  <g fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="22">
+    <path d="M256 214 206 392M256 214l50 178M222 334h68"/>
+    <path d="M205 163a72 72 0 0 0 0 102M307 163a72 72 0 0 1 0 102"/>
+    <path d="M168 126a124 124 0 0 0 0 176M344 126a124 124 0 0 1 0 176"/>
+  </g>
+  <circle cx="256" cy="214" r="22" fill="#fff"/>
+</svg>

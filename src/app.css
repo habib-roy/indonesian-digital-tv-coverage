@@ -191,16 +191,6 @@ dialog[open] {
     transform: translateY(8px);
   }
 }
-@keyframes shimmer {
-  to {
-    background-position: -200% 0;
-  }
-}
-.skeleton {
-  border-radius: 10px;
-  background: linear-gradient(90deg, var(--track) 0%, var(--btn-hover) 50%, var(--track) 100%) 0 0 / 200% 100%;
-  animation: shimmer 1.4s linear infinite;
-}
 
 @media (prefers-reduced-motion: reduce) {
   *,

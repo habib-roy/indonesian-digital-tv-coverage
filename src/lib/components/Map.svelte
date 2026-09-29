@@ -3,11 +3,14 @@
   Reads/writes global state in state.svelte.ts; all tunables come from src/config.ts.
 -->
 <script lang="ts">
-  import * as maplibregl from "maplibre-gl";
+  import type * as ML from "maplibre-gl";
   import type { GeoJSONSource, ImageSource } from "maplibre-gl";
   // maplibre v6 resolves its worker relative to its own module URL, which breaks after bundling.
   import workerUrl from "maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url";
   import { onMount } from "svelte";
+  // MapLibre is ~1 MB; loaded in onMount so the UI shell paints first (was the main Lighthouse cost).
+  // Every other use below runs only after `map` exists, i.e. after this is assigned.
+  let maplibregl: typeof ML;
   import {
     app,
     toggleTheme,
@@ -17,6 +20,7 @@
     analyse,
     setHeatmapBbox,
     scheduleHeatmap,
+    locateHome,
   } from "../state.svelte.ts";
   import { interpolate } from "../core/geo.ts";
   import {
@@ -32,14 +36,14 @@
   } from "../../config.ts";
 
   let el: HTMLDivElement;
-  let map: maplibregl.Map | undefined = $state();
+  let map: ML.Map | undefined = $state();
   let overlayVersion = $state(0); // bumps after (re)adding overlay layers on each style load
-  let homeMarker: maplibregl.Marker | undefined;
-  let hoverMarker: maplibregl.Marker | undefined;
+  let homeMarker: ML.Marker | undefined;
+  let hoverMarker: ML.Marker | undefined;
   const heatCanvas = document.createElement("canvas");
 
   /** Build a MapLibre style for a basemap from config.ts. */
-  function styleFor(id: BasemapId, theme: Theme): string | maplibregl.StyleSpecification {
+  function styleFor(id: BasemapId, theme: Theme): string | ML.StyleSpecification {
     const b: BasemapDef = BASEMAPS[id];
     if (b.kind === "style") return b.url(theme);
     return {
@@ -52,7 +56,6 @@
   let basemap: BasemapId = $state(MAP.defaultBasemap);
   let layersOpen = $state(false);
   let ctrls: HTMLDivElement;
-  maplibregl.setWorkerUrl(workerUrl);
 
   /** margin (dB) → RGBA: red < 0, amber 0–10, green ≥ 10 */
   function color(m: number): [number, number, number, number] {
@@ -61,6 +64,17 @@
     if (m < 0) return [240, 110, 70, 150];
     if (m < 10) return [245, 180, 60, 150];
     return [60, 210, 130, 150];
+  }
+
+  let locating = $state(false);
+  let locMsg = $state("");
+  /** GPS → home pin → analysis. Used by the map button and the first-visit prompt. */
+  export async function locate() {
+    locating = true;
+    locMsg = await locateHome();
+    locating = false;
+    if (locMsg) setTimeout(() => (locMsg = ""), UI.messageTimeoutMs);
+    else if (app.home) flyTo(app.home.lat, app.home.lon);
   }
 
   export function flyTo(lat: number, lon: number) {
@@ -81,11 +95,26 @@
   }
 
   onMount(() => {
+    // Build the map when the browser is idle so the UI shell stays responsive on first load.
+    const idle = window.requestIdleCallback ?? ((cb: () => void) => setTimeout(cb, 1));
+    idle(() => void init());
+    return () => map?.remove();
+  });
+
+  async function init() {
+    maplibregl = await import("maplibre-gl");
+    maplibregl.setWorkerUrl(workerUrl);
     map = new maplibregl.Map({
       container: el,
       style: styleFor(basemap, app.theme),
-      center: MAP.center,
-      zoom: MAP.zoom,
+      // Fit all of Indonesia (Sabang–Merauke) on any screen; a fixed zoom shows only Kalimantan on phones.
+      bounds: MAP.bounds,
+      fitBoundsOptions: {
+        padding:
+          innerWidth >= UI.desktopMinWidth
+            ? { top: 20, bottom: 20, left: UI.sidebarWidth + 40, right: 60 }
+            : { top: 60, bottom: 170, left: 10, right: 50 }, // step-1 sheet is ~150 px tall
+      },
       maxPitch: 80,
       attributionControl: { compact: true },
     });
@@ -110,7 +139,10 @@
         source: "dem",
         paint: { "hillshade-exaggeration": 0.35, "hillshade-shadow-color": "#000" },
       });
-      if (app.terrain3d) m.setTerrain({ source: "dem", exaggeration: MAP.terrainExaggeration });
+      // 3D terrain is the heaviest part; on first load wait until the 2D map has rendered.
+      const terrain = () => app.terrain3d && m.setTerrain({ source: "dem", exaggeration: MAP.terrainExaggeration });
+      if (first) m.once("idle", terrain);
+      else terrain();
 
       m.addSource("tx", {
         type: "geojson",
@@ -187,9 +219,7 @@
       const f = e.features?.[0];
       if (f) new maplibregl.Popup({ closeButton: false }).setLngLat(e.lngLat).setText(String(f.properties.name)).addTo(map!);
     });
-
-    return () => map?.remove();
-  });
+  }
 
   // Home marker
   $effect(() => {
@@ -412,7 +442,28 @@
         >
       {/if}
     </button>
+    <button
+      id="locate-home"
+      type="button"
+      title={app.home ? "Ganti lokasi rumah ke posisi saya" : "Gunakan geolocation"}
+      aria-label={app.home ? "Ganti lokasi rumah ke posisi saya" : "Gunakan geolocation"}
+      disabled={locating}
+      onclick={locate}
+    >
+      {#if locating}<i class="busy" aria-hidden="true"></i>{/if}
+      <svg
+        width="18"
+        height="18"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2.2"
+        stroke-linecap="round"
+        aria-hidden="true"><circle cx="12" cy="12" r="4" /><path d="M12 2v3M12 19v3M2 12h3M19 12h3" /></svg
+      >
+    </button>
   </div>
+  {#if locMsg}<p class="loc-msg glass" role="status">{locMsg}</p>{/if}
   {#if layersOpen}
     <div id="layers-panel" class="panel glass">
       <fieldset>
@@ -454,6 +505,17 @@
     border-radius: 50%;
     background: var(--teal);
     animation: pulse 1s infinite;
+  }
+  .loc-msg {
+    position: absolute;
+    right: calc(100% + 8px);
+    bottom: 0;
+    width: 220px;
+    margin: 0;
+    padding: 8px 10px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    color: var(--amber);
   }
   .panel {
     position: absolute;
