@@ -11,6 +11,10 @@
 /** Project repository (links in the "Kontribusi" modal). */
 export const REPO_URL = "https://github.com/habib-roy/indonesian-digital-tv-coverage";
 
+/** Google Analytics 4 measurement ID; only loaded on GA_HOST (see main.ts). */
+export const GA_ID = "G-8NR467SH2G";
+export const GA_HOST = "tv-digital.hanatek.id";
+
 // ─── External services (all free, no API key) ────────────────────────────────────────────────
 
 /** Terrarium-encoded elevation PNG tiles (AWS Open Data "elevation-tiles-prod"). */

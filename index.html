@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="theme-color" content="#f4f8fa" />
-    <title>Cek Sinyal TV Digital — Estimasi Kuat Sinyal DVB-T2 di Rumah Anda</title>
+    <title>Cek Sinyal TV Digital | Estimasi Kekuatan Sinyal DVB-T2 di Rumah Anda</title>
     <meta
       name="description"
-      content="Cek apakah rumah Anda dapat sinyal TV digital (DVB-T2) di Indonesia. Hitung jalur sinyal dari menara pemancar lewat bukit, atur tinggi antena, dan dapatkan rekomendasi antena. Gratis & open source."
+      content="Cek apakah rumah Anda dapat sinyal TV digital (DVB-T2)? Estimasi jalur sinyal dari menara pemancar, atur tinggi antena, dan dapatkan rekomendasi antena."
     />
     <meta property="og:title" content="Cek Sinyal TV Digital" />
     <meta
@@ -15,6 +15,18 @@
       content="Estimasi kuat sinyal TV digital di rumah Anda, berdasarkan lokasi, terrain 3D, dan tinggi antena."
     />
     <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://tv-digital.hanatek.id/" />
+    <meta property="og:site_name" content="Cek Sinyal TV Digital" />
+    <meta property="og:locale" content="id_ID" />
+    <!-- Crawlers need an absolute URL; points at production so dev previews share the same card. -->
+    <meta property="og:image" content="https://tv-digital.hanatek.id/og-image.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Cek Sinyal TV Digital: peta 3D jalur sinyal dari menara pemancar ke rumah" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="canonical" href="https://tv-digital.hanatek.id/" />
+    <meta name="google-site-verification" content="7uDz7RHY-9q6qHI9B2D0IT9-K1KlytM4S2vuH1IBDuo" />
     <script>
       // apply saved theme before paint (default light)
       if (localStorage.getItem("theme") === "dark") document.documentElement.dataset.theme = "dark";
@@ -28,11 +40,13 @@
       html {
         background: hsl(200 30% 97%);
       }
+
       html[data-theme="dark"] {
         background: hsl(210 30% 7%);
       }
     </style>
   </head>
+
   <body>
     <div id="app"></div>
     <noscript>Aplikasi ini membutuhkan JavaScript.</noscript>
