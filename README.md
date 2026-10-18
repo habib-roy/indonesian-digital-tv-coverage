@@ -35,7 +35,7 @@ pnpm dev             # http://localhost:5173
 | `pnpm build` / `pnpm preview` | Build produksi ke `dist/`                                                         |
 | `pnpm check`                  | Semua pemeriksaan: prettier, eslint (0 warning), svelte-check, tes, validasi data |
 | `pnpm format`                 | Rapikan format                                                                    |
-| `node scripts/build-data.ts`  | Bangun ulang `data/` dari Wikipedia + OpenStreetMap                               |
+| `node scripts/build-data.ts`  | Bangun ulang `data/` dari Wikipedia + ISR SDPPI + OpenStreetMap                   |
 
 Hook `pre-commit` memeriksa format & lint file yang di-stage; `pre-push` menjalankan `pnpm check`.
 

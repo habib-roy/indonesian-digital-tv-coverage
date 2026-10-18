@@ -19,11 +19,12 @@ Jika menambah layanan, data, atau dependensi baru, tambahkan di sini dan pastika
 
 ## Data yang dibundel di `data/` (lihat [data/LICENSE](data/LICENSE))
 
-| Sumber                                                                                                                    | Dipakai untuk                                            | Lisensi                                                                               |
-| ------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| [Wikipedia bahasa Indonesia — Televisi digital di Indonesia](https://id.wikipedia.org/wiki/Televisi_digital_di_Indonesia) | Wilayah layanan & kanal                                  | CC BY-SA 4.0                                                                          |
-| Komdigi (dahulu Kominfo) — Permenkominfo No. 6 Tahun 2019 tentang rencana induk frekuensi TV digital                      | Rujukan utama tabel wilayah layanan & kanal di Wikipedia | Dokumen peraturan pemerintah (tidak dilindungi hak cipta menurut UU 28/2014 Pasal 42) |
-| OpenStreetMap                                                                                                             | Koordinat menara (`confidence.location: "osm"`)          | ODbL 1.0                                                                              |
+| Sumber                                                                                                                    | Dipakai untuk                                                    | Lisensi                                                                               |
+| ------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| [Wikipedia bahasa Indonesia — Televisi digital di Indonesia](https://id.wikipedia.org/wiki/Televisi_digital_di_Indonesia) | Wilayah layanan & kanal                                          | CC BY-SA 4.0                                                                          |
+| Komdigi (dahulu Kominfo) — Permenkominfo No. 6 Tahun 2019 tentang rencana induk frekuensi TV digital                      | Rujukan utama tabel wilayah layanan & kanal di Wikipedia         | Dokumen peraturan pemerintah (tidak dilindungi hak cipta menurut UU 28/2014 Pasal 42) |
+| [SDPPI Komdigi — Peta ISR TV Digital](https://www.postel.go.id/sdppi_maps/27-20210208-peta-sebaran-isr-tv-digital.php)    | Koordinat & kanal stasiun berizin (`confidence.location: "isr"`) | Data izin stasiun radio pemerintah, dipublikasikan untuk umum                         |
+| OpenStreetMap                                                                                                             | Koordinat menara (`confidence.location: "osm"`)                  | ODbL 1.0                                                                              |
 
 ## Model & standar
 

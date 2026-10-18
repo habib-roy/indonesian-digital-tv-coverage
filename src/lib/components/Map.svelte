@@ -150,7 +150,7 @@
           type: "FeatureCollection",
           features: transmitters.map((t) => ({
             type: "Feature",
-            properties: { name: t.name, est: t.confidence.location !== "osm" },
+            properties: { name: t.name, loc: t.confidence.location },
             geometry: { type: "Point", coordinates: [t.lon, t.lat] },
           })),
         },
@@ -161,7 +161,8 @@
         source: "tx",
         paint: {
           "circle-radius": ["interpolate", ["linear"], ["zoom"], 4, 3, 12, 8],
-          "circle-color": ["case", ["get", "est"], "#f5b43c", "#22d3b5"],
+          // Traffic-light: green = licensed (ISR), yellow = OSM, red = guessed.
+          "circle-color": ["match", ["get", "loc"], "isr", "#3cd282", "osm", "#f5b43c", "#e63c4b"],
           "circle-stroke-color": "#0b1218",
           "circle-stroke-width": 2,
         },
@@ -229,7 +230,11 @@
       const dot = document.createElement("div");
       dot.className = "home-pin";
       dot.setAttribute("aria-label", "Lokasi rumah (geser untuk memindah)");
-      homeMarker = new maplibregl.Marker({ element: dot, draggable: true }).setLngLat([lon, lat]).addTo(map);
+      dot.innerHTML =
+        '<svg viewBox="0 0 32 42" width="32" height="42" aria-hidden="true">' +
+        '<path d="M16 1.5C8 1.5 1.5 7.8 1.5 15.6 1.5 26 16 40.5 16 40.5S30.5 26 30.5 15.6C30.5 7.8 24 1.5 16 1.5z" fill="#2f7cf6" stroke="#fff" stroke-width="2.5"/>' +
+        '<path d="M16 8.5l-7 6h2v7h4V17h2v4.5h4v-7h2z" fill="#fff"/></svg>';
+      homeMarker = new maplibregl.Marker({ element: dot, draggable: true, anchor: "bottom" }).setLngLat([lon, lat]).addTo(map);
       homeMarker.on("dragend", () => {
         const p = homeMarker!.getLngLat();
         setHome(p.lat, p.lng);
@@ -574,13 +579,9 @@
     inset: 0;
   }
   :global(.home-pin) {
-    width: 26px;
-    height: 26px;
-    border-radius: 50% 50% 50% 0;
-    transform: rotate(-45deg);
-    background: linear-gradient(135deg, var(--amber), hsl(20 95% 58%));
-    border: 3px solid #fff;
-    box-shadow: 0 0 0 6px hsl(38 95% 58% / 0.25);
+    display: block;
+    line-height: 0;
+    filter: drop-shadow(0 2px 4px hsl(215 60% 20% / 0.45));
     cursor: grab;
   }
   :global(.hover-pin) {

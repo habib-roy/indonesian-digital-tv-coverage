@@ -2,7 +2,8 @@
  * Rebuild data/ from public sources. Run: node scripts/build-data.ts
  *
  *  data/service-areas.json  ← id.wikipedia.org "Televisi digital di Indonesia" (CC BY-SA 4.0)
- *  data/transmitters.json   ← OpenStreetMap via Overpass + Nominatim (ODbL 1.0)
+ *  data/transmitters.json   ← ISR TV Digital (SDPPI Komdigi, public Tableau map; location + channel per station),
+ *                              fallback OpenStreetMap via Overpass + Nominatim (ODbL 1.0)
  *
  * Kept as two separate databases because CC BY-SA and ODbL share-alike terms are not compatible.
  * Tower height / ERP are not published per site: defaults are marked `estimated` for contributors to fix.
@@ -86,6 +87,98 @@ async function osmTowers(): Promise<OsmEl[]> {
   );
 }
 
+const ISR_PAGE = "https://www.postel.go.id/sdppi_maps/27-20210208-peta-sebaran-isr-tv-digital.php";
+const ISR_VIZ = "https://public.tableau.com/vizql/w/PetaISRTVDigital_16131981145190/v/DashboardISRTVDigital";
+
+interface IsrRow {
+  area: string;
+  ch: number;
+  lat: number;
+  lon: number;
+}
+interface Bootstrap {
+  secondaryInfo: {
+    presModelMap: {
+      dataDictionary: {
+        presModelHolder: {
+          genDataDictionaryPresModel: {
+            dataSegments: Record<string, { dataColumns: { dataType: string; dataValues: (string | number)[] }[] }>;
+          };
+        };
+      };
+      vizData: {
+        presModelHolder: {
+          genPresModelMapPresModel: {
+            presModelMap: Record<
+              string,
+              {
+                presModelHolder: {
+                  genVizDataPresModel: {
+                    paneColumnsData: {
+                      vizDataColumns: {
+                        fieldCaption?: string;
+                        dataType: string;
+                        paneIndices: number[];
+                        columnIndices: number[];
+                      }[];
+                      paneColumnsList: { vizPaneColumns: { valueIndices: number[]; aliasIndices: number[] }[] }[];
+                    };
+                  };
+                };
+              }
+            >;
+          };
+        };
+      };
+    };
+  };
+}
+
+/**
+ * ISR stations behind the SDPPI map. Data download is disabled on the workbook, so this reads the
+ * same bootstrap payload the browser receives. Unofficial Tableau endpoint: may break; then fix or skip.
+ */
+async function isrStations(): Promise<IsrRow[]> {
+  const s = await fetch(`${ISR_VIZ}/startSession/viewing?:embed=y&:showVizHome=no`, { method: "POST", headers: UA });
+  const sid = s.headers.get("x-session-id");
+  const g = s.headers.get("global-session-header");
+  if (!sid || !g) throw new Error(`ISR: startSession ${s.status}`);
+  const r = await fetch(`${ISR_VIZ}/bootstrapSession/sessions/${sid}`, {
+    method: "POST",
+    headers: { ...UA, "global-session-header": g },
+    body: new URLSearchParams({ sheet_id: "Dashboard ISR TV Digital" }),
+  });
+  const text = await r.text();
+  if (!r.ok) throw new Error(`ISR: bootstrap ${r.status}`);
+  // Body = "<len>;<json><len>;<json>"; the second chunk holds the data.
+  const chunks: unknown[] = [];
+  for (let i = 0; i < text.length;) {
+    const semi = text.indexOf(";", i);
+    const n = Number(text.slice(i, semi));
+    chunks.push(JSON.parse(text.slice(semi + 1, semi + 1 + n)));
+    i = semi + 1 + n;
+  }
+  const pm = (chunks[1] as Bootstrap).secondaryInfo.presModelMap;
+  const dict: Record<string, (string | number)[]> = {};
+  for (const seg of Object.values(pm.dataDictionary.presModelHolder.genDataDictionaryPresModel.dataSegments))
+    for (const c of seg.dataColumns) (dict[c.dataType] ??= []).push(...c.dataValues);
+  const sheet =
+    pm.vizData.presModelHolder.genPresModelMapPresModel.presModelMap["TV Digital (2)"].presModelHolder.genVizDataPresModel
+      .paneColumnsData;
+  const col = (caption: string) => {
+    const c = sheet.vizDataColumns.find((c) => c.fieldCaption === caption);
+    if (!c) throw new Error(`ISR: field "${caption}" not found`);
+    // Numbers come as valueIndices (raw); strings only as aliasIndices.
+    const p = sheet.paneColumnsList[c.paneIndices[0]].vizPaneColumns[c.columnIndices[0]];
+    const idx = p.valueIndices.length ? p.valueIndices : p.aliasIndices;
+    return idx.map((i) => dict[c.dataType][i]);
+  };
+  const [area, ch, lat, lon] = ["ATTR(Wilayah Layanan)", "ATTR(Kanal)", "Sid Lat", "Sid Long"].map(col);
+  return area
+    .map((a, i) => ({ area: String(a), ch: Number(ch[i]), lat: Number(lat[i]), lon: Number(lon[i]) }))
+    .filter((x) => x.ch >= 21 && x.ch <= 69 && Number.isFinite(x.lat) && Number.isFinite(x.lon));
+}
+
 async function main() {
   const areas = await wikiAreas();
   console.log(`service areas: ${areas.length}`);
@@ -131,9 +224,47 @@ async function main() {
 
   const tx: Transmitter[] = [];
   const covered = new Set<string>();
+
+  // ISR first: licensed station coordinates. Stations of one area within 1.5 km = one site;
+  // frequency = highest licensed channel at the site (worst case).
+  const isr = await isrStations();
+  if (!isr.length) throw new Error("ISR: 0 stations parsed; data/ left unchanged");
+  const isrSites: { area: ServiceArea; lat: number; lon: number; ch: number[] }[] = [];
+  for (const r of isr) {
+    const k = slug(r.area);
+    const a = areas.find((a) => a.id === k || a.id.startsWith(`${k}-`));
+    if (!a) continue;
+    const s = isrSites.find((s) => s.area === a && distanceM(s, r) < 1500);
+    if (s) s.ch.push(r.ch);
+    else isrSites.push({ area: a, lat: r.lat, lon: r.lon, ch: [r.ch] });
+  }
+  console.log(`isr stations: ${isr.length}, sites: ${isrSites.length}`);
+  const perArea = new Map<string, number>();
+  for (const s of isrSites) {
+    const n = (perArea.get(s.area.id) ?? 0) + 1;
+    perArea.set(s.area.id, n);
+    covered.add(s.area.id);
+    // Borrow tower height from an OSM-mapped tower at the same spot.
+    const o = sites.find((o) => o.heights.length && distanceM(o, s) < 500);
+    const h = o && Math.max(...o.heights);
+    tx.push({
+      id: `isr-${s.area.id}-${n}`,
+      name: `Pemancar ${s.area.name}${n > 1 ? ` #${n}` : ""} (${s.ch.length} MUX)`,
+      area: s.area.id,
+      lat: +s.lat.toFixed(5),
+      lon: +s.lon.toFixed(5),
+      height_m: h || DEFAULT_HEIGHT_M,
+      erp_kw: DEFAULT_ERP_KW,
+      freq_mhz: uhfToMhz(Math.max(...s.ch)),
+      confidence: { location: "isr", height: h ? "osm" : "estimated", erp: "estimated" },
+      source: [ISR_PAGE, ...(o && h ? o.osm.map((x) => `https://www.openstreetmap.org/${x}`) : [])],
+    });
+  }
+
+  // OSM towers only for areas without ISR data.
   for (const s of sites) {
     const a = nearestArea(s.lat, s.lon);
-    if (!a) continue;
+    if (!a || perArea.has(a.id)) continue;
     covered.add(a.id);
     const h = s.heights.length ? Math.max(...s.heights) : undefined;
     tx.push({

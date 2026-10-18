@@ -12,7 +12,7 @@ export interface ServiceArea {
   source: string;
 }
 
-export type Confidence = "measured" | "osm" | "area-center" | "estimated";
+export type Confidence = "measured" | "isr" | "osm" | "area-center" | "estimated";
 
 export interface Transmitter {
   id: string;

@@ -49,8 +49,9 @@
   <h1 class="sr-only">Cek Sinyal TV Digital</h1>
 
   <div class="legend glass" aria-label="Legenda peta">
-    <span><i class="dot" style="background:#f5b43c"></i>Pemancar (lokasi perkiraan)</span>
-    <span><i class="dot" style="background:#22d3b5"></i>Pemancar (lokasi OSM)</span>
+    <span><i class="dot" style="background:#3cd282"></i>Pemancar (data ISR SDPPI)</span>
+    <span><i class="dot" style="background:#f5b43c"></i>Pemancar (lokasi OSM)</span>
+    <span><i class="dot" style="background:#e63c4b"></i>Pemancar (lokasi perkiraan)</span>
     <span><i class="pin"></i>Rumah Anda</span>
     {#if app.heatmapOn}
       <hr />
@@ -224,7 +225,7 @@
   .legend .pin {
     border-radius: 50% 50% 50% 0;
     transform: rotate(-45deg);
-    background: linear-gradient(135deg, var(--amber), hsl(20 95% 58%));
+    background: #2f7cf6;
     border: 1.5px solid #fff;
   }
   .legend i {
