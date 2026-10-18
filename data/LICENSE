@@ -6,6 +6,9 @@ It is a derivative of:
   - Wikipedia bahasa Indonesia, "Televisi digital di Indonesia" (CC BY-SA 4.0)
     https://id.wikipedia.org/wiki/Televisi_digital_di_Indonesia
     → service areas, channel assignments. ShareAlike requires this data to stay CC BY-SA.
+  - SDPPI Komdigi, Peta ISR TV Digital — licensed station coordinates and channels
+    https://www.postel.go.id/sdppi_maps/27-20210208-peta-sebaran-isr-tv-digital.php
+    (public government licence data; records with confidence.location "isr")
   - OpenStreetMap contributors (ODbL 1.0) — tower locations
     https://www.openstreetmap.org/copyright
     Tower coordinates taken from OSM remain available under the ODbL; see each

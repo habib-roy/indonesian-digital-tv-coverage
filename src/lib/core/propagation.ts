@@ -23,14 +23,17 @@ export const ITM_PARAMS = {
 
 /**
  * Receiver reference: outdoor Yagi on the roof.
- * Threshold from first principles (no unverified table value):
- *   noise = −174 dBm/Hz + 10·log10(7.61 MHz DVB-T2 8 MHz occupied BW) + NF 6 dB ≈ −99.2 dBm
- *   C/N 20 dB — DVB-T2 256-QAM CR 3/5 Rice ≈ 17.1 dB (ETSI TR 102 831 Table 45) + 3 dB implementation margin
- *   → P_min ≈ −79.2 dBm at the tuner.
+ * Transmission mode = Indonesian DVB-T2 (Permenkominfo 3/2019, TVRI "Jangkauan Siaran TV Digital" 2024):
+ *   64-QAM, FEC 4/5, FFT 32k extended, GI 1/16, PP4, ~33 Mbps in 8 MHz.
+ * Threshold from first principles:
+ *   noise = −174 dBm/Hz + 10·log10(7.77 MHz, 32k extended occupied BW) + NF 6 dB ≈ −99.1 dBm
+ *   C/N 20 dB — 64-QAM 4/5 has the same 4.8 bit/cell as 256-QAM 3/5 (≈ 17.1 dB Rice, ETSI TR 102 831 Table 45),
+ *   so ≈ 17 dB + 3 dB implementation margin. ponytail: exact 64-QAM 4/5 table value not checked.
+ *   → P_min ≈ −79.1 dBm at the tuner.
  */
 export const RECEIVER = {
   noiseFigure_dB: 6,
-  bandwidth_Hz: 7.61e6,
+  bandwidth_Hz: 7.77e6,
   cn_dB: 20,
   antennaGain_dBi: 10,
   feederLoss_dB: 3,
